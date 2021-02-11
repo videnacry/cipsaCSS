@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Enuncement} from './assets/enuncement'
 import {Exercise01} from './exercise01/exercise01'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Enuncement/>
       <Exercise01/>
     </div>
   );
