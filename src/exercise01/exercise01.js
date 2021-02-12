@@ -12,7 +12,7 @@ export const Exercise01 = () => {
 			</p>
 		</div>
 
-		<div class="normal">
+		<div className="normal">
 			<p>
 			Phasellus eu velit sed lorem sodales egestas. Ut feugiat. <span>
 			<a href="#">Donec porttitor</a>, magna eu varius luctus,</span> metus massa
@@ -22,7 +22,7 @@ export const Exercise01 = () => {
 			</p>
 			
 			<p>
-			Cum sociis natoque <em class="especial">penatibus et magnis</em> dis
+			Cum sociis natoque <em className="especial">penatibus et magnis</em> dis
 			parturient montes, nascetur ridiculus mus. Proin aliquam convallis ante.
 			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
 			turpis egestas. Nunc aliquet. Sed eu metus. Duis justo.
@@ -30,7 +30,7 @@ export const Exercise01 = () => {
 			
 			<p>
 			Donec facilisis blandit velit. Vestibulum nisi. Proin volutpat, <em
-			class="especial">enim id iaculis congue</em>, orci justo ultrices tortor, <a
+			className="especial">enim id iaculis congue</em>, orci justo ultrices tortor, <a
 			href="#">quis lacinia eros libero in eros</a>. Sed malesuada dui vel quam.
 			Integer at eros.
 			</p>
