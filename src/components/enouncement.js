@@ -1,10 +1,7 @@
 import './enouncement.css'
 
-export const Enuncement = ({enuncement:{title, text}}) => {
+export const Enuncement = ({imgSrc}) => {
     return(
-        <>
-        <h1 className="enuncement-title">{title}</h1>
-        <p className="enuncement-text">{text}</p>
-        </>
+        <img src={imgSrc} width="100%"/>
     )
 }
