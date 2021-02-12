@@ -2,12 +2,11 @@ import {useReducer} from 'react'
 import './App.css';
 import {Nav} from './components/nav'
 import {Enuncement} from './components/enouncement'
-import {Exercise01} from './exercise01/exercise01'
 import {enouncementsImg} from './img/enouncements/exercises'
+import {exercises} from './exercises'
 
 const initialState = {exerciseIndex : 0}
 const navLines = []
-const exercises = [<Exercise01/>]
 for (let count = 1; count <= 10; count++) {
   navLines.push('ejercicio ' + count)
 }
