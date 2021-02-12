@@ -1,7 +1,7 @@
 import {useReducer} from 'react'
 import './App.css';
-import {Nav} from './assets/nav'
-import {Enuncement} from './assets/enuncement'
+import {Nav} from './components/nav'
+import {Enuncement} from './components/enuncement'
 import {Exercise01} from './exercise01/exercise01'
 
 const initialState = {exerciseIndex : 0}
