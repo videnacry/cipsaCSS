@@ -7,19 +7,23 @@ import {Exercise01} from './exercise01/exercise01'
 const initialState = {exerciseIndex : 0}
 const navLines = []
 for (let count = 1; count < 10; count++) {
-  navLines.push('ejercicio' + count)
+  navLines.push('ejercicio ' + count)
 }
 const reducer = (state, action) => {
-  switch (action.exercise) {
-    case '1': return {...state, exerciseIndex : 1}
-    case '2': return {...state, exerciseIndex : 2}
-  }
+  let newState
+  navLines.forEach((line, index) => {
+    if (line === action.exercise) {
+      newState = {...state, exerciseIndex : index}
+    } else {
+      console.log(action.exercise, line)
+    }
+  })
+  return newState
 }
 const exercises = [<Exercise01/>]
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
-  console.log(state)
   return (
     <>
     <header>
@@ -27,7 +31,7 @@ function App() {
     </header>
     <section className="flex-row">
       <aside>
-        <Nav lines={navLines}/>
+        <Nav clickHandler={liNum => dispatch({exercise: liNum})} lines={navLines}/>
       </aside>
       <article>
         <Enuncement/>
