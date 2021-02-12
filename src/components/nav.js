@@ -1,9 +1,8 @@
 import './nav.css'
-export const Nav = () => {
+export const Nav = ({lines}) => {
     return(
         <ul className="nav-c">
-            <li>Ejercicio 1</li>
-            <li>Ejercicio 2</li>
+            {lines.map(line => <li>{line}</li>)}
         </ul>
     )
 }

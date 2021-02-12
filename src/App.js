@@ -5,6 +5,10 @@ import {Enuncement} from './components/enuncement'
 import {Exercise01} from './exercise01/exercise01'
 
 const initialState = {exerciseIndex : 0}
+const navLines = []
+for (let count = 1; count < 10; count++) {
+  navLines.push('ejercicio' + count)
+}
 const reducer = (state, action) => {
   switch (action.exercise) {
     case '1': return {...state, exerciseIndex : 1}
@@ -23,7 +27,7 @@ function App() {
     </header>
     <section className="flex-row">
       <aside>
-        <Nav/>
+        <Nav lines={navLines}/>
       </aside>
       <article>
         <Enuncement/>
