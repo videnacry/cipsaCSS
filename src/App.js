@@ -10,15 +10,8 @@ for (let count = 1; count < 10; count++) {
   navLines.push('ejercicio ' + count)
 }
 const reducer = (state, action) => {
-  let newState
-  navLines.forEach((line, index) => {
-    if (line === action.exercise) {
-      newState = {...state, exerciseIndex : index}
-    } else {
-      console.log(action.exercise, line)
-    }
-  })
-  return newState
+  let exerciseIndex = navLines.indexOf(action.exercise)
+  return {...state, exerciseIndex}
 }
 const exercises = [<Exercise01/>]
 
