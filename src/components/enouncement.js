@@ -1,4 +1,4 @@
-import './enuncement.css'
+import './enouncement.css'
 
 export const Enuncement = ({enuncement:{title, text}}) => {
     return(
