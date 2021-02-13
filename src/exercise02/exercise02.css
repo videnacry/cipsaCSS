@@ -1,0 +1,18 @@
+.bg-blue {
+    background-color: rgb(64, 131, 255);
+}
+.color-white {
+    color: white
+}
+.visited-color-red:visited {
+    color: red;
+}
+.hover-color-purple:hover, .hover-color-purple *:hover {
+    color: rgb(98, 0, 255);
+}
+.m-1 {
+    margin: 1em;
+}
+.p-1 {
+    padding: 1em;
+}
