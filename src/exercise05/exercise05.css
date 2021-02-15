@@ -1,0 +1,21 @@
+.border-black {
+    border: solid 1px black;
+}
+.children-th-bg-blue th{
+    background-color: rgb(20, 134, 206)
+}
+.children-th-left th{
+    text-align: left;
+}
+.children-td-right td{
+    text-align: right;
+}
+.children-th-txt-blue th{
+    color: rgb(0, 0, 151);
+}
+.font-family-arial {
+    font-family: Arial;
+}
+.font-size-09 {
+    font-size: .9em;
+}
