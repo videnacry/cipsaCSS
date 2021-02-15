@@ -1,10 +1,65 @@
 import './exercise05.css'
 
-const titles = ['VENTAS', 'ENERO', 'FEBRERO', 'MARZO']
-
+const months = ['ENERO', 'FEBRERO', 'MARZO']
+const coins = {
+    euro: '€'
+}
+const sells = [
+    {
+        year: 2008,
+        countries: [
+            {
+                name: 'BIZKAIA',
+                months: {
+                    ENERO: 10.250,
+                    FEBRERO: 15.560,
+                    MARZO: 10.360
+                },
+                coin: 'euro'
+            },
+            {
+                name: 'GUIPUZKOA',
+                months: {
+                    ENERO: 12.360,
+                    FEBRERO: 8.950,
+                    MARZO: 18.500
+                },
+                coin: 'euro'
+            },
+            {
+                name: 'ARABA',
+                months: {
+                    ENERO: 9.635,
+                    FEBRERO: 6.580,
+                    MARZO: 11.250
+                },
+                coin: 'euro'
+            }
+        ]
+    }
+]
 
 const tableClass = 'border-black children-th-bg-blue children-th-left children-td-right'
 const fontClass = 'font-size-09 font-family-arial'
+const thClass = 'font-weight-bold width-190 ' + fontClass
+const headers = [
+    {
+        name: 'VENTAS',
+        class: 'width-190 ' + fontClass
+    },
+    {
+        name: 'ENERO',
+        class: 'width-120 ' + fontClass
+    },
+    {
+        name: 'FEBRERO',
+        class: 'width-150 ' + fontClass
+    },
+    {
+        name: 'MARZO',
+        class: 'width-120 ' + fontClass
+    }
+]
 
 export const Exercise05 = () => {
     return(
@@ -12,28 +67,24 @@ export const Exercise05 = () => {
             <caption>VENTAS 2008</caption>
             <thead className='children-th-txt-blue'>
                 <tr>
-                    {titles.map(title => <th className={fontClass}>{title}</th>)}
+                    {headers.map(header => <th className={header.class}>{header.name}</th>)}
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th>BIZKAIA</th>
-                    <td>10.250€</td>
-                    <td>15.560€</td>
-                    <td>10.360€</td>
-                </tr>
-                <tr>
-                    <th>GUIPUZKOA</th>
-                    <td>12.360€</td>
-                    <td>8.950€</td>
-                    <td>18.500€</td>
-                </tr>
-                <tr>
-                    <th>ARABA</th>
-                    <td>9.635€</td>
-                    <td>6.580€</td>
-                    <td>11.250€</td>
-                </tr>
+                {sells.map(sell => {
+                    if (sell.year == '2008') {
+                        return sell.countries.map(country => {
+                            return(
+                            <tr>
+                                <th className={thClass}>{country.name}</th>
+                                {months.map(month => (
+                                    <td>{country.months[month] + ' ' + coins[country.coin]}</td>
+                                ))}
+                            </tr>
+                            )
+                        })
+                    }
+                })}
             </tbody>
         </table>
     )
