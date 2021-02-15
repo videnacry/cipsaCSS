@@ -1,5 +1,9 @@
 .caption-side-bottom {
     caption-side: bottom;
+
+}
+.table-bordered {
+    border-collapse: collapse;
 }
 .table-bordered td {
     border: solid 2px rgb(0, 0, 34);
