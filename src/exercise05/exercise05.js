@@ -59,7 +59,7 @@ const sells = [
     }
 ]
 
-const tableClass = 'border-black children-th-bg-blue children-th-left children-td-right'
+const tableClass = 'm-auto border-black children-th-bg-blue children-th-left children-td-right'
 const fontClass = 'font-size-09 font-family-arial'
 const thClass = 'font-weight-bold width-190 ' + fontClass
 const headers = [
