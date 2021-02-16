@@ -1,5 +1,25 @@
 import './exercise05.css'
 
+/**
+ * Return months sell if the sells year matches the param year
+ * @param {object} sell 
+ * @param {int} year 
+ */
+const monthsSell = (sell, year) => {
+    if (sell.year == year) {
+        return sell.countries.map(country => {
+            return(
+            <tr>
+                <th className={thClass}>{country.name}</th>
+                {months.map(month => (
+                    <td>{country.months[month] + ' ' + coins[country.coin]}</td>
+                ))}
+            </tr>
+            )
+        })
+    }
+}
+
 const months = ['ENERO', 'FEBRERO', 'MARZO']
 const coins = {
     euro: '€'
@@ -63,29 +83,16 @@ const headers = [
 
 export const Exercise05 = () => {
     return(
-        <table className={tableClass}>
-            <caption>VENTAS 2008</caption>
-            <thead className='children-th-txt-blue'>
-                <tr>
-                    {headers.map(header => <th className={header.class}>{header.name}</th>)}
-                </tr>
-            </thead>
-            <tbody>
-                {sells.map(sell => {
-                    if (sell.year == '2008') {
-                        return sell.countries.map(country => {
-                            return(
-                            <tr>
-                                <th className={thClass}>{country.name}</th>
-                                {months.map(month => (
-                                    <td>{country.months[month] + ' ' + coins[country.coin]}</td>
-                                ))}
-                            </tr>
-                            )
-                        })
-                    }
-                })}
-            </tbody>
-        </table>
+    <table className={tableClass}>
+        <caption>VENTAS 2008</caption>
+        <thead className='children-th-txt-blue'>
+            <tr>
+                {headers.map(header => <th className={header.class}>{header.name}</th>)}
+            </tr>
+        </thead>
+        <tbody>
+            {sells.map(sell => monthsSell(sell, 2008))}
+        </tbody>
+    </table>
     )
 }
