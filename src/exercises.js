@@ -3,11 +3,13 @@ import {Exercise02} from './exercise02/exercise02'
 import {Exercise03} from './exercise03/exercise03'
 import {Exercise04} from './exercise04/exercise04'
 import {Exercise05} from './exercise05/exercise05'
+import {Exercise06} from './exercise06/exercise06'
 
 export const exercises = [
 <Exercise01/>,
 <Exercise02/>,
 <Exercise03/>,
 <Exercise04/>,
-<Exercise05/>
+<Exercise05/>,
+<Exercise06/>
 ]
