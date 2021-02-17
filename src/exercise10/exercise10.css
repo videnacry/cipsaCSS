@@ -1,11 +1,26 @@
 .w-94dot93-percent {
     width: 94.93%;
 }
+.w-68-percent {
+    width: 68%;
+}
 .m-00 {
     margin: 0;
 }
+.my-10 {
+    margin: 10px 0;
+}
+.mt-00 {
+    margin-top: 0;
+}
+.mt-12 {
+    margin-top: 12px;
+}
 .ml-3dot5-percent {
     margin-left: 3.5%;
+}
+.mb-00 {
+    margin-bottom: 0;
 }
 .p-00 {
     padding: 0;
@@ -37,14 +52,41 @@
 .bg-f9ffc6 {
     background-color: #f9ffc6;
 }
-.color-414141 {
-    color: #414141;
+.color-4b4b4b {
+    color: #4b4b4b;
+}
+.color-535268 {
+    color: #535268;
+}
+.color-5f5d67 {
+    color: #5f5d67;
+}
+.color-3e2b55 {
+    color: #3e2b55;
 }
 .font-family-system-ui {
     font-family: system-ui;
 }
+.font-family-cursive {
+    font-family: cursive;
+}
+.font-family-monospace {
+    font-family: monospace;
+}
+.font-size-22 {
+    font-size: 22px;
+}
+.font-size-16 {
+    font-size: 16px;
+}
 .font-weight-500 {
     font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.line-height-18 {
+    line-height: 18px;
 }
 .list-style-type-none {
     list-style-type: none;

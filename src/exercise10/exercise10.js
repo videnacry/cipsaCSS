@@ -12,44 +12,48 @@ export const Exercise10 = () => {
             </header>
             <nav className='bg-f9ffc6 pb-04'>
                 <ul className='pl-12 flex-row list-style-type-none m-00'>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='portada' href='./#portada'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='portada' href='./#portada'>
                         Portada
                     </a></li>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='temporadas' href='./#temporadas'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='temporadas' href='./#temporadas'>
                         Temporadas
                     </a></li>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='invierno-vacacional' href='./#invierno-vacacional'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='invierno-vacacional' href='./#invierno-vacacional'>
                         Invierno Vacacional
                     </a></li>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='agosto' href='./#agosto'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='agosto' href='./#agosto'>
                         Agosto
                     </a></li>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='vacaciones-aventura' href='./#vacaciones-aventura'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='vacaciones-aventura' href='./#vacaciones-aventura'>
                         Vacaciones de Aventura
                     </a></li>
-                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='contacto' href='./#contacto'>
+                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='contacto' href='./#contacto'>
                         Contacto
                     </a></li>
                 </ul>
             </nav>
-            <article>
-                <h1>T&iacute;tulo de la p&aacute;gina</h1>
-                <p>
+            <article className='w-68-percent'>
+                <h1 className='font-family-cursive font-size-22 font-weight-600 color-535268 mb-00'>
+                    T&iacute;tulo de la p&aacute;gina
+                </h1>
+                <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
                     La manera m&aacute;s sencilla y ordenada para organizar la p&aacute;gina es por capas. As&iacute; hemos intentado con esta pr&aacute;ctica final ir explicando parte por parte, la posible realizaci&oacute;n de la p&aacute;gina inicial de una Web.
                 </p>
-                <p>
+                <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
                     De esta forma podemos ir comprendiendo la maquetaci&oacute;n de un p&aacute;gina
                 </p>
-                <p>
+                <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
                     Luego podemos utilizar este ejemplo para nuestras propias maquetaciones.
                 </p>
-                <p>
+                <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
                     Hemos intentado ir paso para ir comprendiendo una a una las partes en que podemos distribuir el dise&ntilde;o de nuestra web. Es importante seguir paso a paso el ejercicio y entender las propiedades utilizadas en cada estilo.
                 </p>
-                <ul>
-                    <li><a id='volver' href='./#volver'>Volver</a></li>
-                    <li><a id='portada' href='./#portada'>portada</a></li>
-                    <li><a id='mapa-sitio' href='./#mapa-sitio'>Mapa del sitio</a></li>
+                <ul className='flex-row p-0 list-style-type-none m-12 font-family-monospace font-size-16 color-3e2b55 font-weight-600 mt-00'>
+                    <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='volver' href='./#volver'>Volver</a></li>
+                    &nbsp;|&nbsp;
+                    <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='portada' href='./#portada'>Portada</a></li>
+                    &nbsp;|&nbsp;
+                    <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='mapa-sitio' href='./#mapa-sitio'>Mapa del sitio</a></li>
                 </ul>
             </article>
             <aside>
