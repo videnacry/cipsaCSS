@@ -79,19 +79,19 @@ export const Exercise09 = () => {
                             Sabemos de momento trabajar con:
                         </p>
                         <ul className='list-style-type-none w-240 p-0'>
-                            <li className={pClass + ' w-230'}>Html</li>
-                            <li className={pClass + ' w-230'}>XHtml</li>
-                            <li className={pClass + ' w-230'}>CSS</li>
+                            <li className={pClass + ' w-230'}>* Html</li>
+                            <li className={pClass + ' w-230'}>* XHtml</li>
+                            <li className={pClass + ' w-230'}>* CSS</li>
                         </ul>
                     </div>
                     <div>
                         <p className={pClass + ' color-dodgerblue'}>Por lo tanto sabemos dise&ntilde;ar p&aacute;ginas:</p>
                         <ul className='list-style-type-none w-240 p-0'>
                             <li className={pClass + ' w-230'}>
-                                Regidas por los est&aacute;ndares utilizados hoy en d&iacute;a
+                                * Regidas por los est&aacute;ndares utilizados hoy en d&iacute;a
                             </li>
                             <li className={pClass + ' w-230'}>
-                                Que se ver&aacute;n en cualquier navegador
+                                * Que se ver&aacute;n en cualquier navegador
                             </li>
                         </ul>
                     </div>
