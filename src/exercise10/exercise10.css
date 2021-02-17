@@ -1,11 +1,29 @@
 .w-94dot93-percent {
     width: 94.93%;
 }
+.m-00 {
+    margin: 0;
+}
 .ml-3dot5-percent {
     margin-left: 3.5%;
 }
+.p-00 {
+    padding: 0;
+}
 .pt-2dot6-percent {
     padding-top: 2.6%;
+}
+.pl-12 {
+    padding-left: 12px;
+}
+.pb-04 {
+    padding-bottom: 4px;
+}
+.pr-06 {
+    padding-right: 6px;
+}
+.flex-row {
+    display: flex;
 }
 .position-relative {
     position: relative;
@@ -15,4 +33,19 @@
 }
 .z-index--1 {
     z-index: -1;
+}
+.bg-f9ffc6 {
+    background-color: #f9ffc6;
+}
+.color-414141 {
+    color: #414141;
+}
+.font-family-system-ui {
+    font-family: system-ui;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.list-style-type-none {
+    list-style-type: none;
 }

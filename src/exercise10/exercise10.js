@@ -10,14 +10,26 @@ export const Exercise10 = () => {
             <header>
                 <img src={webVacacionesImg} width='100%'/>
             </header>
-            <nav>
-                <ul>
-                    <li><a id='portada' href='./#portada'>Portada</a></li>
-                    <li><a id='temporadas' href='./#temporadas'>Temporadas</a></li>
-                    <li><a id='invierno-vacacional' href='./#invierno-vacacional'>Invierno Vacacional</a></li>
-                    <li><a id='agosto' href='./#agosto'>Agosto</a></li>
-                    <li><a id='vacaciones-aventura' href='./#vacaciones-aventura'>Vacaciones de Aventura</a></li>
-                    <li><a id='contacto' href='./#contacto'>Contacto</a></li>
+            <nav className='bg-f9ffc6 pb-04'>
+                <ul className='pl-12 flex-row list-style-type-none m-00'>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='portada' href='./#portada'>
+                        Portada
+                    </a></li>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='temporadas' href='./#temporadas'>
+                        Temporadas
+                    </a></li>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='invierno-vacacional' href='./#invierno-vacacional'>
+                        Invierno Vacacional
+                    </a></li>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='agosto' href='./#agosto'>
+                        Agosto
+                    </a></li>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='vacaciones-aventura' href='./#vacaciones-aventura'>
+                        Vacaciones de Aventura
+                    </a></li>
+                    <li><a className='color-414141 font-weight-500 font-family-system-ui pr-06' id='contacto' href='./#contacto'>
+                        Contacto
+                    </a></li>
                 </ul>
             </nav>
             <article>
