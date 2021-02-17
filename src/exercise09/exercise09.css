@@ -105,7 +105,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
 }
 .top-35-percent {
     top: 35%;
@@ -157,4 +157,23 @@
 }
 .list-style-type-none {
     list-style-type: none;
+}
+
+@media (max-width: 869px) {
+    .media-869-w-max {
+        width: 100%;
+    }
+    .media-869-h-unset {
+        height: unset;
+    }
+    .media-869-flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .media-869-flex-column {
+        flex-direction: column;
+    }
+    .media-869-justify-content-space-evenly {
+        justify-content: space-evenly;
+    }
 }

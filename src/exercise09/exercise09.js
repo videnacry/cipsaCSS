@@ -3,10 +3,16 @@ import './exercise09.css'
 import environmentImg from './Environment.png'
 import calamardoImg from './Calamardo.jpg'
 const articleClasses = [
-    'w-30-percent', 
+    'w-30-percent', 'media-869-w-max',
     'border-black', 'border-box',
     'flex-row', 'flex-nowrap',
     'justify-content-center'
+]
+const articleDivClasses = [
+    'flex-column', 'media-869-flex-row',
+    'justify-content-space-between',
+    'media-869-justify-content-space-evenly',
+    'media-869-w-max'
 ]
 const headerClasses = [
     'border-black', 'border-4',
@@ -33,9 +39,9 @@ export const Exercise09 = () => {
                 Mi web de prueba
             </h1>
         </header>
-        <section className='flex-row h-72-percent'>
+        <section className='flex-row h-72-percent media-869-flex-column media-869-h-unset'>
             <article className={articleClasses.join(' ') + ' border-4 bg-gold mr-6-percent'}>
-                <div className='flex-column justify-content-space-between'>
+                <div className={articleDivClasses.join(' ')}>
                     <p className={pClass + ' color-black'}>
                         Este es un ejercicio en el cual aplicaremos todo lo que sabemos hasta &eacute;ste momento, pasando por todos los temas vistos hasta ahora.
                     </p>
@@ -45,7 +51,7 @@ export const Exercise09 = () => {
                 </div>
             </article>
             <article className={articleClasses.join(' ') + ' border-2 bg-b19ed8 mr-4-percent'}>
-                <div className='flex-column justify-content-space-between'>
+                <div className={articleDivClasses.join(' ')}>
                     <div>
                         <img src={calamardoImg} className='my-20' width='240' alt=''/>
                     </div>
@@ -55,24 +61,28 @@ export const Exercise09 = () => {
                 </div>
             </article>
             <article className={articleClasses.join(' ') + ' border-4 bg-afafaf color-dodgerblue'}>
-                <div>
-                    <p className={pClass + ' color-dodgerblue'}>
-                        Sabemos de momento trabajar con:
-                    </p>
-                    <ul className='list-style-type-none w-240 p-0'>
-                        <li className={pClass + ' w-230'}>Html</li>
-                        <li className={pClass + ' w-230'}>XHtml</li>
-                        <li className={pClass + ' w-230'}>CSS</li>
-                    </ul>
-                    <p className={pClass + ' color-dodgerblue'}>Por lo tanto sabemos dise&ntilde;ar p&aacute;ginas:</p>
-                    <ul className='list-style-type-none w-240 p-0'>
-                        <li className={pClass + ' w-230'}>
-                            Regidas por los est&aacute;ndares utilizados hoy en d&iacute;a
-                        </li>
-                        <li className={pClass + ' w-230'}>
-                            Que se ver&aacute;n en cualquier navegador
-                        </li>
-                    </ul>
+                <div className='media-869-w-max media-869-flex-row media-869-justify-content-space-evenly'>
+                    <div>
+                        <p className={pClass + ' color-dodgerblue'}>
+                            Sabemos de momento trabajar con:
+                        </p>
+                        <ul className='list-style-type-none w-240 p-0'>
+                            <li className={pClass + ' w-230'}>Html</li>
+                            <li className={pClass + ' w-230'}>XHtml</li>
+                            <li className={pClass + ' w-230'}>CSS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p className={pClass + ' color-dodgerblue'}>Por lo tanto sabemos dise&ntilde;ar p&aacute;ginas:</p>
+                        <ul className='list-style-type-none w-240 p-0'>
+                            <li className={pClass + ' w-230'}>
+                                Regidas por los est&aacute;ndares utilizados hoy en d&iacute;a
+                            </li>
+                            <li className={pClass + ' w-230'}>
+                                Que se ver&aacute;n en cualquier navegador
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </article>
         </section>
