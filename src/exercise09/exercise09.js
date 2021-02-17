@@ -5,7 +5,7 @@ import calamardoImg from './Calamardo.jpg'
 const sectionClasses = [
     'flex-row', 'h-72-percent',
     'media-869-flex-column', 'media-869-h-unset',
-    'media-510-h-unset', 'media-869-flex-column'
+    'media-510-h-unset', 'media-510-flex-column'
 ]
 const articleClasses = [
     'w-30-percent', 'media-869-w-max',
@@ -27,7 +27,14 @@ const headerClasses = [
 const pageTitleClasses = [
     'color-812d81', 'font-weight-900',
     'font-size-2', 'absolute-center',
-    'm-0'
+    'm-0', 'text-align-center',
+    'w-max'
+]
+const footerClasses = [
+    'bg-black', 'h-7-percent',
+    'w-max', 'mt-1-percent',
+    'position-relative', 'media-869-h-12-percent',
+    'media-510-h-15-percent'
 ]
 const footerTextClasses = [
     'font-weight-900', 'font-size-1', 
@@ -91,7 +98,7 @@ export const Exercise09 = () => {
                 </div>
             </article>
         </section>
-        <footer className='bg-black h-7-percent w-max mt-1-percent position-relative'>
+        <footer className={footerClasses.join(' ')}>
             <p>
                 <b className={footerTextClasses.join(' ')}>
                     Alumno de Cispa a&ntilde;o 2010 todos los derechos reservados
