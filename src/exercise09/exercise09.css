@@ -159,7 +159,7 @@
     list-style-type: none;
 }
 
-@media (max-width: 869px) {
+@media (max-width: 869px)and (min-width: 510px) {
     .media-869-w-max {
         width: 100%;
     }
@@ -175,5 +175,18 @@
     }
     .media-869-justify-content-space-evenly {
         justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 510px) {
+    .media-510-w-max {
+        width: 100%;
+    }
+    .media-510-h-unset {
+        height: unset;
+    }
+    .media-869-flex-column {
+        display: flex;
+        flex-direction: column;
     }
 }

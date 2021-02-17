@@ -2,11 +2,16 @@ import './exercise09.css'
 
 import environmentImg from './Environment.png'
 import calamardoImg from './Calamardo.jpg'
+const sectionClasses = [
+    'flex-row', 'h-72-percent',
+    'media-869-flex-column', 'media-869-h-unset',
+    'media-510-h-unset', 'media-869-flex-column'
+]
 const articleClasses = [
     'w-30-percent', 'media-869-w-max',
     'border-black', 'border-box',
     'flex-row', 'flex-nowrap',
-    'justify-content-center'
+    'justify-content-center', 'media-510-w-max',
 ]
 const articleDivClasses = [
     'flex-column', 'media-869-flex-row',
@@ -39,7 +44,7 @@ export const Exercise09 = () => {
                 Mi web de prueba
             </h1>
         </header>
-        <section className='flex-row h-72-percent media-869-flex-column media-869-h-unset'>
+        <section className={sectionClasses.join(' ')}>
             <article className={articleClasses.join(' ') + ' border-4 bg-gold mr-6-percent'}>
                 <div className={articleDivClasses.join(' ')}>
                     <p className={pClass + ' color-black'}>
