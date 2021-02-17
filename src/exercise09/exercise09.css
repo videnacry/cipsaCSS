@@ -1,0 +1,160 @@
+.w-98-vw {
+    width: 98vw;
+}
+.w-max {
+    width: 100%;
+}
+.w-30-percent {
+    width: 30%;
+}
+.w-240 {
+    width: 240px;
+}
+.w-230 {
+    width: 230px;
+}
+.w-unset {
+    width: unset;
+}
+.h-94-vh {
+    height: 94vh;
+}
+.h-max {
+    height: 100%;
+}
+.h-72-percent {
+    height: 72%;
+}
+.h-16-percent {
+    height: 16%;
+}
+.h-7-percent {
+    height: 7%;
+}
+.h-240 {
+    height: 240px;
+}
+.m-0 {
+    margin: 0;
+}
+.mx-2-vw {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-4-vh {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mb-2-percent {
+    margin-bottom: 2%;
+}
+.mt-1-percent {
+    margin-top: 1%;
+}
+.mr-4-percent {
+    margin-right: 4%;
+}
+.mr-6-percent {
+    margin-right: 6%;
+}
+.p-0 {
+    padding: 0;
+}
+.border-black {
+    border: 1px solid black;
+}
+.border-2 {
+    border-width: 2px;
+}
+.border-4 {
+    border-width: 4px;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.flex-row, .flex-column {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-nowrap {
+    flex-wrap: wrap;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.top-35-percent {
+    top: 35%;
+}
+.bottom-0-percent {
+    bottom: 0%;
+}
+.right-1-percent {
+    right: 1%;
+}
+.font-size-2 {
+    font-size: 2em;
+}
+.font-size-1 {
+    font-size: 1em;
+}
+.font-weight-900 {
+    font-weight: 900;
+}
+.font-family-arial {
+    font-family: Arial;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-gold {
+    background-color: gold;
+}
+.bg-b19ed8 {
+    background-color: #b19ed8;
+}
+.bg-afafaf {
+    background-color: #afafaf;
+}
+.color-whitesmoke {
+    color: whitesmoke;
+}
+.color-812d81 {
+    color: #812d81;
+}
+.color-gold {
+    color: gold;
+}
+.color-dodgerblue {
+    color: dodgerblue
+}
+.color-black {
+    color: black;
+}
+.list-style-type-none {
+    list-style-type: none;
+}
