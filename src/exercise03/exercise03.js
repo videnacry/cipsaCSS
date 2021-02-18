@@ -9,9 +9,9 @@ const titles = [
     'CAJA 1', 'CAJA 2', 'CAJA 3'
 ]
 const classes = [
-    'align-left font-size-20 font-family-arial line-through-12 float-left m-1',
-    'align-center font-size-12 font-family-courier line-through-16 float-left m-1',
-    'align-right font-size-8 font-family-verdana line-through-20 float-left m-1'
+    'align-left font-size-20-em font-family-arial line-through-12-em float-left m-1',
+    'align-center font-size-15-em font-family-courier line-through-16-em float-left m-1',
+    'align-right font-size-08-em font-family-verdana line-through-20-em float-left m-1'
 ]
 const boxClass = 'w-200 h-450 overflow-hidden border-black border-3'
 const titleClass = 'font-size-20 font-family-auto font-weight-bold'

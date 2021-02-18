@@ -22,13 +22,13 @@
 .align-right {
     text-align: right;
 }
-.font-size-20 {
+.font-size-20-em {
     font-size: 2em;
 }
-.font-size-15 {
+.font-size-15-em {
     font-size: 1.5em;
 }
-.font-size-8 {
+.font-size-08-em {
     font-size: 0.8em;
 }
 .font-family-arial {
@@ -46,13 +46,13 @@
 .font-weight-bold {
     font-weight: bold;
 }
-.line-through-12, .line-through-16, .line-through-20 {
+.line-through-12-em {
     line-height: 1.2em;
 }
-.line-through-16 {
+.line-through-16-em {
     line-height: 1.6em;
 }
-.line-through-20 {
+.line-through-20-em {
     line-height: 2em;
 }
 .overflow-hidden {
