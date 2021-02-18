@@ -209,20 +209,17 @@
 .font-family-monospace {
     font-family: monospace;
 }
-.font-size-22 {
-    font-size: 22px;
+.font-size-2dot2-vw {
+    font-size: 2.2vw;
 }
-.font-size-18 {
-    font-size: 18px;
+.font-size-1dot6-vw {
+    font-size: 1.6vw;
 }
-.font-size-16 {
-    font-size: 16px;
+.font-size-1dot5-vw {
+    font-size: 1.5vw;
 }
-.font-size-15 {
-    font-size: 15px;
-}
-.font-size-14 {
-    font-size: 14px;
+.font-size-1dot4-vw {
+    font-size: 1.4vw;
 }
 .font-weight-500 {
     font-weight: 500;
