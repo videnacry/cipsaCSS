@@ -59,6 +59,9 @@
 .mb-00 {
     margin-bottom: 0;
 }
+.mr-1dot5-percent {
+    margin-right: 1.5%;
+}
 .p-00 {
     padding: 0;
 }
@@ -143,6 +146,9 @@
 .color-dddddd {
     color: #dddddd;
 }
+.color-bebebe {
+    color: #bebebe;
+}
 .color-d3d19c {
     color: #d3d19c;
 }
@@ -157,6 +163,9 @@
 }
 .color-3e2b55 {
     color: #3e2b55;
+}
+.text-align-end {
+    text-align: end;
 }
 .text-shadow-black {
     text-shadow: 0 0 1px black;

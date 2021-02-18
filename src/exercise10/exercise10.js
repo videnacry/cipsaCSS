@@ -96,7 +96,9 @@ export const Exercise10 = () => {
                 </aside>
             </div>
             <footer>
-                <p>Pruebas de maquetaci&oacute;n CSS © 2008 Cipsa.net</p>
+                <p className='text-align-end text-shadow-black mr-1dot5-percent color-bebebe font-size-14'>
+                    Pruebas de maquetaci&oacute;n CSS © 2008 Cipsa.net
+                </p>
             </footer>
         </div>
     </div>
