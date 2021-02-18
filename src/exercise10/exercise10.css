@@ -170,6 +170,9 @@
 .color-3e2b55 {
     color: #3e2b55;
 }
+.color-2f1f43 {
+    color: #2f1f43;
+}
 .text-align-end {
     text-align: end;
 }
@@ -178,6 +181,15 @@
 }
 .text-shadow-gray-02 {
     text-shadow: 0 0 2px gray;
+}
+.text-shadow-gray-04 {
+    text-shadow: 0 0 4px gray;
+}
+.text-shadow-b9b9b9-20-grey-2 {
+    text-shadow: 0 0 20px #b9b9b9, 0 0 2px grey;
+}
+.text-shadow-bf3fbf-14-black-1 {
+    text-shadow: 0 0 1px black, 0 0 14px #bf3fbf
 }
 .text-shadow-whitesmoke {
     text-shadow: 0 0 1px whitesmoke;

@@ -34,27 +34,27 @@ export const Exercise10 = () => {
             </nav>
             <div className='flex-row justify-content-space-between'>
                 <article className='w-68-percent'>
-                    <h1 className='font-family-cursive font-size-22 font-weight-600 color-535268 mb-00'>
+                    <h1 className='font-family-cursive font-size-22 color-535268 mb-00 text-shadow-b9b9b9-20-grey-2'>
                         T&iacute;tulo de la p&aacute;gina
                     </h1>
-                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
+                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui text-shadow-b9b9b9-20-grey-2 font-size-15'>
                         La manera m&aacute;s sencilla y ordenada para organizar la p&aacute;gina es por capas. As&iacute; hemos intentado con esta pr&aacute;ctica final ir explicando parte por parte, la posible realizaci&oacute;n de la p&aacute;gina inicial de una Web.
                     </p>
-                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
+                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui text-shadow-b9b9b9-20-grey-2 font-size-15'>
                         De esta forma podemos ir comprendiendo la maquetaci&oacute;n de un p&aacute;gina
                     </p>
-                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
+                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui text-shadow-b9b9b9-20-grey-2 font-size-15'>
                         Luego podemos utilizar este ejemplo para nuestras propias maquetaciones.
                     </p>
-                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui font-weight-500'>
+                    <p className='line-height-18 my-10 color-5f5d67 font-family-system-ui text-shadow-b9b9b9-20-grey-2 font-size-15'>
                         Hemos intentado ir paso para ir comprendiendo una a una las partes en que podemos distribuir el dise&ntilde;o de nuestra web. Es importante seguir paso a paso el ejercicio y entender las propiedades utilizadas en cada estilo.
                     </p>
                     <ul className='flex-row p-0 list-style-type-none m-12 font-family-monospace font-size-16 color-3e2b55 font-weight-600 mt-00'>
-                        <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='volver' href='./#volver'>Volver</a></li>
+                        <li><a className='font-family-monospace font-size-16 color-2f1f43 font-weight-600 text-shadow-bf3fbf-14-black-1' id='volver' href='./#volver'>Volver</a></li>
                         &nbsp;|&nbsp;
-                        <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='portada' href='./#portada'>Portada</a></li>
+                        <li><a className='font-family-monospace font-size-16 color-2f1f43 font-weight-600 text-shadow-bf3fbf-14-black-1' id='portada' href='./#portada'>Portada</a></li>
                         &nbsp;|&nbsp;
-                        <li><a className=' font-family-monospace font-size-16 color-3e2b55 font-weight-600' id='mapa-sitio' href='./#mapa-sitio'>Mapa del sitio</a></li>
+                        <li><a className='font-family-monospace font-size-16 color-2f1f43 font-weight-600 text-shadow-bf3fbf-14-black-1' id='mapa-sitio' href='./#mapa-sitio'>Mapa del sitio</a></li>
                     </ul>
                 </article>
                 <aside className='w-28dot6-percent border-light-gray border-02 border-right-00 border-top-00'>
