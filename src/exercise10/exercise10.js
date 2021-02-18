@@ -10,24 +10,24 @@ export const Exercise10 = () => {
             <header>
                 <img src={webVacacionesImg} width='100%'/>
             </header>
-            <nav className='bg-f9ffc6 pb-04'>
+            <nav className='bg-f9ffc6 pb-04  border-light-gray border-00 border-bottom-02'>
                 <ul className='pl-12 flex-row list-style-type-none m-00'>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='portada' href='./#portada'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='portada' href='./#portada'>
                         Portada
                     </a></li>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='temporadas' href='./#temporadas'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='temporadas' href='./#temporadas'>
                         Temporadas
                     </a></li>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='invierno-vacacional' href='./#invierno-vacacional'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='invierno-vacacional' href='./#invierno-vacacional'>
                         Invierno Vacacional
                     </a></li>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='agosto' href='./#agosto'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='agosto' href='./#agosto'>
                         Agosto
                     </a></li>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='vacaciones-aventura' href='./#vacaciones-aventura'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='vacaciones-aventura' href='./#vacaciones-aventura'>
                         Vacaciones de Aventura
                     </a></li>
-                    <li><a className='color-4b4b4b font-weight-500 font-family-system-ui pr-06' id='contacto' href='./#contacto'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02 font-size-14' id='contacto' href='./#contacto'>
                         Contacto
                     </a></li>
                 </ul>
