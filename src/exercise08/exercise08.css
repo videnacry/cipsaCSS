@@ -1,96 +1,97 @@
-.overflow-auto {
+.exercise08 .overflow-auto {
     overflow: auto;
 }
-.border-box {
+.exercise08 .border-box {
     box-sizing: border-box;
 }
-.w-max {
+.exercise08 .w-max {
     width: 100%;
 }
-.w-800 {
+.exercise08 .w-800 {
     width: 800px;
 }
-.w-450 {
+.exercise08 .w-450 {
     width: 500px;
 }
-.w-250 {
+.exercise08 .w-250 {
     width: 250px;
 }
-.h-700{
+.exercise08 .h-700{
     height: 700px;
 }
-.h-460 {
+.exercise08 .h-460 {
     height: 460px;
 }
-.h-100 {
+.exercise08 .h-100 {
     height: 100px;
 }
-.h-80 {
+.exercise08 .h-80 {
     height: 80px;
 }
-.m-00 {
+.exercise08 .m-00 {
     margin: 0;
 }
-.m-20 {
+.exercise08 .m-20 {
     margin: 20px;
 }
-.mt-10 {
+.exercise08 .mt-10 {
     margin-top: 10px;
 }
-.mt-40 {
+.exercise08 .mt-40 {
     margin-top: 40px;
 }
-.ml-10 {
+.exercise08 .ml-10 {
     margin-left: 10px;
 }
-.ml-15 {
+.exercise08 .ml-15 {
     margin-left: 15px;
 }
-.padding-00 {
+.exercise08 .padding-00 {
     padding: 0;
 }
-.p-20 {
+.exercise08 .p-20 {
     padding: 20px;
 }
-.pt-120 {
+.exercise08 .pt-120 {
     padding-top: 120px;
 }
-.border-black {
+.exercise08 .border-black {
     border: 1px solid black;
 }
-.border-4 {
+.exercise08 .border-4 {
     border-width: 4px;
 }
-.flex-row, .flex-column {
+.exercise08 .flex-row,
+.exercise08 .flex-column {
     display: flex;
 }
-.justify-content-center {
+.exercise08 .justify-content-center {
     justify-content: center;
 }
-.position-relative {
+.exercise08 .position-relative {
     position: relative;
 }
-.absolute-vertical-center {
+.exercise08 .absolute-vertical-center {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-.absolute-center {
+.exercise08 .absolute-center {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.right-60 {
+.exercise08 .right-60 {
     right: 60px;
 }
-.list-style-none {
+.exercise08 .list-style-none {
     list-style: none;
 }
-.font-weight-900 {
+.exercise08 .font-weight-900 {
     font-weight: 900;
 }
-.color-green {
+.exercise08 .color-green {
     color: rgb(159, 238, 41);
 }
-.color-red {
+.exercise08 .color-red {
     color: rgb(255, 0, 74);
 }
