@@ -3,6 +3,7 @@ import './exercise04.css'
 export const Exercise04 = () => {
 
     return(
+    <div className='exercise04'>
         <table className="table-bordered border-2">
             <caption className='caption-side-bottom'>TABLA 1</caption>
             <tbody>
@@ -18,5 +19,6 @@ export const Exercise04 = () => {
                 </tr>
             </tbody>
         </table>
+    </div>
     )
 }

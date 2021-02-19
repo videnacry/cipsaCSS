@@ -1,10 +1,10 @@
-.caption-side-bottom {
+.exercise04 .caption-side-bottom {
     caption-side: bottom;
 
 }
-.table-bordered {
+.exercise04 .table-bordered {
     border-collapse: collapse;
 }
-.table-bordered td {
+.exercise04 .table-bordered td {
     border: solid 2px rgb(0, 0, 34);
 }
