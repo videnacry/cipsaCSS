@@ -4,9 +4,9 @@ import exercise10Img from '../img/enouncements/exercise10.jpg'
 import webVacacionesImg from './webVacaciones.jpg'
 export const Exercise10 = () => {
     return(
-    <div className='position-relative'>
-        <img src={exercise10Img} className='position-absolute z-index--1' width='100%'/>
-        <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent'>
+    <div className='position-relative h-56-vw'>
+        <img src={exercise10Img} className='position-absolute z-index--1 h-max' width='100%'/>
+        <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent h-97-percent border-box overflow-y-auto'>
             <div className='box-shadow-x--0dot1-vw-1vw-black filter-grayscale-0dot2'>
                 <header>
                     <img src={webVacacionesImg} width='100%'/>

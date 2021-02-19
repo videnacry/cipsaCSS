@@ -6,6 +6,12 @@
     width: 1.6vw;
     height: 1.6vw;
 }
+.border-box {
+    box-sizing: border-box;
+}
+.overflow-y-auto {
+    overflow-y: auto;
+}
 .w-94dot776-percent {
     width: 94.776%;
 }
@@ -21,11 +27,20 @@
 .w-28dot6-percent {
     width: 28.6%;
 }
-.h-1dot8-vw {
-    height: 1.8vw;
+.h-56-vw {
+    height: 56vw;
 }
 .h-2-vw {
     height: 2vw;
+}
+.h-1dot8-vw {
+    height: 1.8vw;
+}
+.h-max {
+    height: 100%;
+}
+.h-97-percent {
+    height: 97%;
 }
 .mt-1dot5-percent {
     margin-top: 1.5%;
