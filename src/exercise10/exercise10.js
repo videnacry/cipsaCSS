@@ -69,7 +69,7 @@ export const Exercise10 = () => {
                             <h3 className='mt-00 mb-5-percent bg-737ba0 font-weight-500 color-dddddd font-family-monospace font-size-1dot6-vw text-shadow-whitesmoke text-shadow-left-01'>Buscar</h3>
                             <div><input type='text'className='w-58-percent ml-5-percent h-2-vw'/></div>
                             <div><button disabled className='flex-column justify-content-center px-03-percent border-radius-06 border-light-gray border-02 h-1dot8-vw bg-lightgoldenrodyellow color-d3d19c font-weight-600 font-family-monospace font-size-1dot5-vw mt-1dot5-percent ml-57-percent'>Go</button></div>
-                            <div className='ml-6dot5-percent mt-2-percent color-5f5d67 font-size-1dot4-vw mb-5-percent'>
+                            <div className='ml-6dot5-percent mt-2-percent color-5f5d67 font-size-1dot3-vw mb-5-percent'>
                                 <div className='mb-1dot5-percent'>
                                     <span className='position-relative size-1dot6-vw bg-5f5d67 inline-block border-radius-50-percent'>
                                         <input type='radio' className='m-00 absolute-center size-1dot4-vw' id='vacations'/>
@@ -84,13 +84,13 @@ export const Exercise10 = () => {
                                 </div>
                             </div>
                         </section>
-                        <section className='font-size-1dot4-vw'>
+                        <section className='font-size-1dot3-vw'>
                             <h3 className='mt-00 mb-5-percent bg-737ba0 font-weight-500 color-dddddd font-family-monospace font-size-1dot6-vw text-shadow-whitesmoke text-shadow-left-01'>Registro</h3>
                             <p className='ml-5-percent color-5f5d67 text-shadow-black mb-3-percent'>
                                 <a className='color-3e2b55 text-shadow-black text-shadow-02' id='register' href='#register'>Reg&iacute;strese con nosotros</a> y obtenga muchas ventajas.
                             </p>
                         </section>
-                        <section className='font-size-1dot4-vw'>
+                        <section className='font-size-1dot3-vw'>
                             <h3 className='mt-00 mb-5-percent bg-737ba0 font-weight-500 color-dddddd font-family-monospace font-size-1dot6-vw text-shadow-whitesmoke text-shadow-left-01'>Otras informaciones</h3>
                             <ul className='list-style-type-none pl-14-percent mb-10-percent'>
                                 <li>
