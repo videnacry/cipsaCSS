@@ -1,66 +1,66 @@
-.w-200 {
+.exercise03 .w-200 {
     width: 200px;
 }
-.h-450 {
+.exercise03 .h-450 {
     height: 450px;
 }
-.float-right {
+.exercise03 .float-right {
     float: right;
 }
-.float-left {
+.exercise03 .float-left {
     float: left;
 }
-.m-1 {
+.exercise03 .m-1 {
     margin: 1em;
 }
-.align-left {
+.exercise03 .align-left {
     text-align: left;
 }
-.align-center {
+.exercise03 .align-center {
     text-align: center;
 }
-.align-right {
+.exercise03 .align-right {
     text-align: right;
 }
-.font-size-20-em {
+.exercise03 .font-size-20-em {
     font-size: 2em;
 }
-.font-size-15-em {
+.exercise03 .font-size-15-em {
     font-size: 1.5em;
 }
-.font-size-08-em {
+.exercise03 .font-size-08-em {
     font-size: 0.8em;
 }
-.font-family-arial {
+.exercise03 .font-family-arial {
     font-family: Arial;
 }
-.font-family-courier {
+.exercise03 .font-family-courier {
     font-family: Courier;
 }
-.font-family-verdana {
+.exercise03 .font-family-verdana {
     font-family: Verdana;
 }
-.font-family-auto {
+.exercise03 .font-family-auto {
     font-family: auto;
 }
-.font-weight-bold {
+.exercise03 .font-weight-bold {
     font-weight: bold;
 }
-.line-through-12-em {
+.exercise03 .line-through-12-em {
     line-height: 1.2em;
 }
-.line-through-16-em {
+.exercise03 .line-through-16-em {
     line-height: 1.6em;
 }
-.line-through-20-em {
+.exercise03 .line-through-20-em {
     line-height: 2em;
 }
-.overflow-hidden {
+.exercise03 .overflow-hidden {
     overflow: hidden;
 }
-.border-black {
+.exercise03 .border-black {
     border: solid 1px rgb(41, 41, 41);
 }
-.border-3 {
+.exercise03 .border-3 {
     border-width: 3px;
 }

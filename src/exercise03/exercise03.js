@@ -18,15 +18,15 @@ const titleClass = 'font-size-20 font-family-auto font-weight-bold'
 
 export const Exercise03 = () => {
     return(
-        <>
-        {texts.map((text, index) => 
-            <div>
-                <h3 className={titleClass}>{titles[index]}</h3>
-                <p className={boxClass + ' ' + classes[index]}>
-                    {text}
-                </p>
-            </div>
-        )}
-        </>
+        <div className='exercise03'>
+            {texts.map((text, index) => 
+                <div key={index}>
+                    <h3 className={titleClass}>{titles[index]}</h3>
+                    <p className={boxClass + ' ' + classes[index]}>
+                        {text}
+                    </p>
+                </div>
+            )}
+        </div>
     )
 }
