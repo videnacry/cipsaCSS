@@ -1,6 +1,10 @@
-.size-16 {
-    width: 16px;
-    height: 16px;
+.size-1dot4-vw {
+    width: 1.4vw;
+    height: 1.4vw;
+}
+.size-1dot6-vw {
+    width: 1.6vw;
+    height: 1.6vw;
 }
 .w-94dot776-percent {
     width: 94.776%;
@@ -17,8 +21,11 @@
 .w-28dot6-percent {
     width: 28.6%;
 }
-.h-19 {
-    height: 19px;
+.h-1dot8-vw {
+    height: 1.8vw;
+}
+.h-2-vw {
+    height: 2vw;
 }
 .mt-1dot5-percent {
     margin-top: 1.5%;
@@ -68,8 +75,12 @@
 .p-00 {
     padding: 0;
 }
-.px-06 {
-    padding: 0 6px;
+.py-0dot4-percent {
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+}
+.px-03-percent {
+    padding: 0 3% 0 3%;
 }
 .pt-2dot6-percent {
     padding-top: 2.6%;
@@ -77,14 +88,11 @@
 .pl-14-percent {
     padding-left: 14%;
 }
-.pl-12 {
-    padding-left: 12px;
+.pl-1dot5-percent {
+    padding-left: 1.5%;
 }
-.pb-04 {
-    padding-bottom: 4px;
-}
-.pr-06 {
-    padding-right: 6px;
+.pr-0dot5-vw {
+    padding-right: 0.5vw;
 }
 .border-light-gray {
     border: 1px solid lightgray;
@@ -139,6 +147,9 @@
 }
 .z-index--1 {
     z-index: -1;
+}
+.bg-white {
+    background-color: white;
 }
 .bg-lightgoldenrodyellow {
     background-color: lightgoldenrodyellow;

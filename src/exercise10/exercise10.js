@@ -6,28 +6,28 @@ export const Exercise10 = () => {
     return(
     <div className='position-relative'>
         <img src={exercise10Img} className='position-absolute z-index--1' width='100%'/>
-        <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent'>
+        <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent bg-white'>
             <header>
                 <img src={webVacacionesImg} width='100%'/>
             </header>
-            <nav className='bg-f9ffc6 pb-04  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>
-                <ul className='pl-12 flex-row list-style-type-none m-00'>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='portada' href='./#portada'>
+            <nav className='bg-f9ffc6 py-0dot4-percent  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>
+                <ul className='pl-1dot5-percent flex-row list-style-type-none m-00'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='portada' href='./#portada'>
                         Portada
                     </a></li>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='temporadas' href='./#temporadas'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='temporadas' href='./#temporadas'>
                         Temporadas
                     </a></li>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='invierno-vacacional' href='./#invierno-vacacional'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='invierno-vacacional' href='./#invierno-vacacional'>
                         Invierno Vacacional
                     </a></li>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='agosto' href='./#agosto'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='agosto' href='./#agosto'>
                         Agosto
                     </a></li>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='vacaciones-aventura' href='./#vacaciones-aventura'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='vacaciones-aventura' href='./#vacaciones-aventura'>
                         Vacaciones de Aventura
                     </a></li>
-                    <li><a className='color-4b4b4b font-family-system-ui pr-06 text-shadow-gray-02' id='contacto' href='./#contacto'>
+                    <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='contacto' href='./#contacto'>
                         Contacto
                     </a></li>
                 </ul>
@@ -66,18 +66,18 @@ export const Exercise10 = () => {
                 <aside className='w-28dot6-percent border-light-gray border-02 border-right-00 border-top-00'>
                     <section className=''>
                         <h3 className='mt-00 mb-5-percent bg-737ba0 font-weight-500 color-dddddd font-family-monospace font-size-1dot6-vw text-shadow-whitesmoke text-shadow-left-01'>Buscar</h3>
-                        <div><input type='text'className='w-58-percent ml-5-percent'/></div>
-                        <div><button disabled className='flex-column justify-content-center px-06 border-radius-06 border-light-gray border-02 h-19 bg-lightgoldenrodyellow color-d3d19c font-weight-600 font-family-monospace font-size-1dot5-vw mt-1dot5-percent ml-57-percent'>Go</button></div>
+                        <div><input type='text'className='w-58-percent ml-5-percent h-2-vw'/></div>
+                        <div><button disabled className='flex-column justify-content-center px-03-percent border-radius-06 border-light-gray border-02 h-1dot8-vw bg-lightgoldenrodyellow color-d3d19c font-weight-600 font-family-monospace font-size-1dot5-vw mt-1dot5-percent ml-57-percent'>Go</button></div>
                         <div className='ml-6dot5-percent mt-2-percent color-5f5d67 font-size-1dot4-vw mb-5-percent'>
                             <div className='mb-1dot5-percent'>
-                                <span className='position-relative size-16 bg-5f5d67 inline-block border-radius-50-percent'>
-                                    <input type='radio' className='m-00 absolute-center' id='vacations'/>
+                                <span className='position-relative size-1dot6-vw bg-5f5d67 inline-block border-radius-50-percent'>
+                                    <input type='radio' className='m-00 absolute-center size-1dot4-vw' id='vacations'/>
                                 </span>
                                 &nbsp;<label className='text-shadow-black  color-5f5d67' for='vacations'>En la Web de las vacaciones</label>
                             </div>
                             <div>
-                                <span className='position-relative size-16 bg-5f5d67 inline-block border-radius-50-percent'>
-                                    <input type='radio' className='m-00 absolute-center' id='web'/>
+                                <span className='position-relative size-1dot6-vw bg-5f5d67 inline-block border-radius-50-percent'>
+                                    <input type='radio' className='m-00 absolute-center size-1dot4-vw' id='web'/>
                                 </span>
                                 &nbsp;<label className='text-shadow-black  color-5f5d67' for='web'>En toda la Web</label>
                             </div>
