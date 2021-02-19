@@ -9,7 +9,7 @@ const links = [
 
 export const Exercise02 = () => {
     return(
-        <ul>
+        <ul className='exercise02'>
             {links.map(link => 
                 <li className='m-1 p-1 bg-blue hover-color-purple'>
                     <a href={link} className='color-white visited-color-red'>{link}</a>

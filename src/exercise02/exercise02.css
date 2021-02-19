@@ -1,18 +1,18 @@
-.bg-blue {
+.exercise02 .bg-blue {
     background-color: rgb(64, 131, 255);
 }
-.color-white {
+.exercise02 .color-white {
     color: white
 }
-.visited-color-red:visited {
+.exercise02 .visited-color-red:visited {
     color: red;
 }
-.hover-color-purple:hover, .hover-color-purple *:hover {
+.exercise02 .hover-color-purple:hover, .hover-color-purple *:hover {
     color: rgb(98, 0, 255);
 }
-.m-1 {
+.exercise02 .m-1 {
     margin: 1em;
 }
-.p-1 {
+.exercise02 .p-1 {
     padding: 1em;
 }
