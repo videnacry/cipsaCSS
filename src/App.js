@@ -19,7 +19,7 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
   const {exerciseIndex} = state
   return (
-    <>
+    <div className='app'>
     <header>
       <h1 onClick={() => dispatch({exercise : '2'})}>CIPSA - CSS Exercises</h1>
     </header>
@@ -27,12 +27,12 @@ function App() {
       <aside>
         <Nav clickHandler={liNum => dispatch({exercise: liNum})} lines={navLines}/>
       </aside>
-      <article>
+      <article className='w-100'>
         <Enuncement imgSrc={enouncementsImg[exerciseIndex]}/>
         {exercises[exerciseIndex]}
       </article>
     </section>
-    </>
+    </div>
   );
 }
 
