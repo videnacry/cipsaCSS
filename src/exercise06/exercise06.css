@@ -1,106 +1,107 @@
-.children-position-relative * {
+.exercise06 .children-position-relative * {
     position: relative;
 }
-.border-black,.semantic-children-border-black nav,
-.semantic-children-border-black aside,
-.semantic-children-border-black article,
-.semantic-children-border-black header,
-.semantic-children-border-black footer,
-.semantic-children-border-black section {
+.exercise06 .border-black,
+.exercise06 .semantic-children-border-black nav,
+.exercise06 .semantic-children-border-black aside,
+.exercise06 .semantic-children-border-black article,
+.exercise06 .semantic-children-border-black header,
+.exercise06 .semantic-children-border-black footer,
+.exercise06 .semantic-children-border-black section {
     border: solid 1px black;
 }
-.children-text-vertical-center h1,
-.children-text-vertical-center h2,
-.children-text-vertical-center h3,
-.children-text-vertical-center h4,
-.children-text-vertical-center h5,
-.children-text-vertical-center h6
-.children-text-vertical-center p,
-.children-text-vertical-center span,
-.children-text-vertical-center a,
-.children-text-vertical-center li {
+.exercise06 .children-text-vertical-center h1,
+.exercise06 .children-text-vertical-center h2,
+.exercise06 .children-text-vertical-center h3,
+.exercise06 .children-text-vertical-center h4,
+.exercise06 .children-text-vertical-center h5,
+.exercise06 .children-text-vertical-center h6
+.exercise06 .children-text-vertical-center p,
+.exercise06 .children-text-vertical-center span,
+.exercise06 .children-text-vertical-center a,
+.exercise06 .children-text-vertical-center li {
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
 }
-.children-font-family-auto * {
+.exercise06 .children-font-family-auto * {
     font-family: auto;
 }
-.children-font-size-26 * {
+.exercise06 .children-font-size-26 * {
     font-size: 26px;
 }
-.bg-black {
+.exercise06 .bg-black {
     background-color: black;
 }
-.color-white {
+.exercise06 .color-white {
     color: white;
 }
-.font-size-56 {
+.exercise06 .font-size-56 {
     font-size: 56px;
 }
-.font-size-18 {
+.exercise06 .font-size-18 {
     font-size: 18px;
 }
-.w-1000 {
+.exercise06 .w-1000 {
     width: 1000px;
 }
-.w-20-percent {
+.exercise06 .w-20-percent {
     width: 20%;
 }
-.w-54-percent {
+.exercise06 .w-54-percent {
     width: 54%;
 }
-.w-26-percent {
+.exercise06 .w-26-percent {
     width: 26%;
 }
-.h-max {
+.exercise06 .h-max {
     height: 100%;
 }
-.h-300 {
+.exercise06 .h-300 {
     height: 300px;
 }
-.h-170 {
+.exercise06 .h-170 {
     height: 170px;
 }
-.h-130 {
+.exercise06 .h-130 {
     height: 130px;
 }
-.h-30 {
+.exercise06 .h-30 {
     height: 30px;
 }
-.h-20 {
+.exercise06 .h-20 {
     height: 20px;
 }
-.m-1 {
+.exercise06 .m-1 {
     margin: 10px;
 }
-.mx-1 {
+.exercise06 .mx-1 {
     margin: 0 10px;    
 }
-.mx-2 {
+.exercise06 .mx-2 {
     margin: 0 20px;
 }
-.mx-4 {
+.exercise06 .mx-4 {
     margin: 0 40px;
 }
-.mx-7 {
+.exercise06 .mx-7 {
     margin: 0 70px;
 }
-.my-1 {
+.exercise06 .my-1 {
     margin: 10px 0;
 }
-.mb-0 {
+.exercise06 .mb-0 {
     margin-bottom: 0;
 }
-.mt-0 {
+.exercise06 .mt-0 {
     margin-top: 0;
 }
-.pb-4 {
+.exercise06 .pb-4 {
     padding-bottom: 40px;
 }
-.flex-row {
+.exercise06 .flex-row {
     display: flex;
 }
-.bottom-50 {
+.exercise06 .bottom-50 {
     bottom: 50%;
 }
