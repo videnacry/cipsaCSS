@@ -83,16 +83,18 @@ const headers = [
 
 export const Exercise05 = () => {
     return(
-    <table className={tableClass}>
-        <caption>VENTAS 2008</caption>
-        <thead className='children-th-txt-blue'>
-            <tr>
-                {headers.map(header => <th className={header.class}>{header.name}</th>)}
-            </tr>
-        </thead>
-        <tbody>
-            {sells.map(sell => monthsSell(sell, 2008))}
-        </tbody>
-    </table>
+    <div className='exercise05'>
+        <table className={tableClass}>
+            <caption>VENTAS 2008</caption>
+            <thead className='children-th-txt-blue'>
+                <tr>
+                    {headers.map(header => <th className={header.class}>{header.name}</th>)}
+                </tr>
+            </thead>
+            <tbody>
+                {sells.map(sell => monthsSell(sell, 2008))}
+            </tbody>
+        </table>
+    </div>
     )
 }

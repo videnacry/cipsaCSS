@@ -1,37 +1,37 @@
-.border-black {
+.exercise05 .border-black {
     border: solid 1px black;
 }
-.children-th-bg-blue th{
+.exercise05 .children-th-bg-blue th{
     background-color: rgb(20, 134, 206)
 }
-.children-th-left th{
+.exercise05 .children-th-left th{
     text-align: left;
 }
-.children-td-right td{
+.exercise05 .children-td-right td{
     text-align: right;
 }
-.children-th-txt-blue th{
+.exercise05 .children-th-txt-blue th{
     color: rgb(0, 0, 151);
 }
-.font-family-arial {
+.exercise05 .font-family-arial {
     font-family: Arial;
 }
-.font-size-09 {
+.exercise05 .font-size-09 {
     font-size: .9em;
 }
-.font-weight-bold {
+.exercise05 .font-weight-bold {
     font-weight: bold;
     color: rgb(0, 0, 48);
 }
-.width-190 {
+.exercise05 .width-190 {
     width: 190px;
 }
-.width-120 {
+.exercise05 .width-120 {
     width: 120px;
 }
-.width-150 {
+.exercise05 .width-150 {
     width: 150px;
 }
-.m-auto {
+.exercise05 .m-auto {
     margin: auto;
 }
