@@ -232,9 +232,6 @@
 .text-shadow-02 {
     text-shadow: 0 0 2px;
 }
-.text-shadow-left-01 {
-    text-shadow: 1px 0;
-}
 .box-shadow-x--0dot1-vw-1vw-black {
     box-shadow: -0.01vw -0.01vw 1vw black;
 }
