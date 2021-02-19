@@ -91,6 +91,9 @@
 .pl-1dot5-percent {
     padding-left: 1.5%;
 }
+.pb-01-percent {
+    padding-bottom: 1%;
+}
 .pr-0dot5-vw {
     padding-right: 0.5vw;
 }
@@ -187,6 +190,9 @@
 .color-2f1f43 {
     color: #2f1f43;
 }
+.filter-grayscale-0dot2 {
+    filter: grayscale(0.2)
+}
 .text-align-end {
     text-align: end;
 }
@@ -213,6 +219,9 @@
 }
 .text-shadow-left-01 {
     text-shadow: 1px 0;
+}
+.box-shadow-x--0dot1-vw-1vw-black {
+    box-shadow: -0.01vw -0.01vw 1vw black;
 }
 .font-family-system-ui {
     font-family: system-ui;
