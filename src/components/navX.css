@@ -1,0 +1,13 @@
+.nav-x_c .mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-x_c .flex-row{
+    display: flex;
+}
+.nav-x_c .list-style-none {
+    list-style: none;
+}
+.nav-x_c .cursor-pointer {
+    cursor: pointer;
+}
