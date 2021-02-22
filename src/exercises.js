@@ -8,6 +8,7 @@ import {Exercise07} from './exercise07/exercise07'
 import {Exercise08} from './exercise08/exercise08'
 import {Exercise09} from './exercise09/exercise09'
 import {Exercise10} from './exercise10/exercise10'
+import {FinalProject} from './proyecto_final/main'
 
 export const exercises = [
 <Exercise01/>,
@@ -19,5 +20,6 @@ export const exercises = [
 <Exercise07/>,
 <Exercise08/>,
 <Exercise09/>,
-<Exercise10/>
+<Exercise10/>,
+<FinalProject/>
 ]
