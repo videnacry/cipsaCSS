@@ -1,7 +1,7 @@
 import {useReducer} from 'react'
 import './App.css';
 import {Nav} from './components/nav'
-import {Enuncement} from './components/enouncement'
+import {Enouncement} from './components/enouncement'
 import {enouncementsImg} from './img/enouncements/exercises'
 import {exercises} from './exercises'
 
@@ -10,6 +10,7 @@ const navLines = []
 for (let count = 1; count <= 10; count++) {
   navLines.push('ejercicio ' + count)
 }
+navLines.push('projecto final')
 const reducer = (state, action) => {
   let exerciseIndex = navLines.indexOf(action.exercise)
   return {...state, exerciseIndex}
@@ -28,7 +29,7 @@ function App() {
         <Nav clickHandler={liNum => dispatch({exercise: liNum})} lines={navLines}/>
       </aside>
       <article className='w-100'>
-        <Enuncement imgSrc={enouncementsImg[exerciseIndex]}/>
+        <Enouncement imgSrc={enouncementsImg[exerciseIndex]}/>
         {exercises[exerciseIndex]}
       </article>
     </section>
