@@ -10,7 +10,7 @@ export const Exercise10 = () => {
                     <header className='bg-img-linear-gradient-5e6394-8f9fb9-a6adc4'>
                         <img src={webVacacionesImg} width='100%'/>
                     </header>
-                    <nav className='bg-f9ffc6 py-0dot4-percent  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>
+                    <nav className='bg-linear-gradient-f9ffc6-fcf8b9-ebf2d6 py-0dot4-percent  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>
                         <ul className='pl-1dot5-percent flex-row list-style-type-none m-00'>
                             <li><a className='color-4b4b4b font-family-system-ui pr-0dot5-vw text-shadow-gray-02' id='portada' href='./#portada'>
                                 Portada

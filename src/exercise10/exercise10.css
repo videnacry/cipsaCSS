@@ -176,8 +176,8 @@
 .exercise10 .bg-lightgoldenrodyellow {
     background-color: lightgoldenrodyellow;
 }
-.exercise10 .bg-f9ffc6 {
-    background-color: #f9ffc6;
+.exercise10 .bg-linear-gradient-f9ffc6-fcf8b9-ebf2d6 {
+    background-image: linear-gradient(#f9ffc6, #fcf8b9, #ebf2d6);
 }
 .exercise10 .bg-737ba0 {
     background-color: #737ba0;
