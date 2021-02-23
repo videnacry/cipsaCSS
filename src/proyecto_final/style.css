@@ -1,0 +1,82 @@
+.border-box {
+    box-sizing: border-box;
+}
+.final-project .w-100-percent {
+    width: 100%;
+}
+.final-project .w-65-percent {
+    width: 65%;
+}
+.final-project .h-24dot6-vw {
+    height: 24.6vw;
+}
+.final-project .p-00 {
+    padding: 0;
+}
+.final-project .pt-01-vw {
+    padding-top: 1vw;
+}
+.final-project .pr-05-vw {
+    padding-right: 5vw;
+}
+.final-project .border-00dot25-vw {
+    border-width: 0.25vw;
+}
+.final-project .border-l-00 {
+    border-left-width: 0;
+}
+.final-project .border-r-00 {
+    border-right-width: 0;
+}
+.final-project .border-solid {
+    border-style: solid;
+}
+.final-project .border-color-e5e5e5 {
+    border-color: #e5e5e5;
+}
+.final-project .flex-row, .flex-column {
+    display: flex;
+    flex-direction: row;
+}
+.final-project .flex-column {
+    flex-direction: column;
+}
+.final-project .justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+.final-project .justify-content-center {
+    justify-content: center;
+}
+/*backgraound color for nav*/
+.final-project .bg-color-f3f3f4 {
+    background-color: #f3f3f4;
+}
+.final-project .bg-img-gradient-e2e2e2-white-25 {
+    background-image: linear-gradient(#e2e2e2, white 25%)
+}
+.final-project .font-size-1dot8-vw {
+    font-size: 1.8vw;
+}
+.final-project .font-weight-500 {
+    font-weight: 500;
+}
+/*gray color for nav options*/
+.final-project .color-9c89a2 {
+    color: #9c89a2;
+}
+.final-project .list-style-none {
+    list-style: none;
+}
+
+/*------------------HOVER--------------------*/
+
+.final-project .color-blueviolet:hover {
+    color: blueviolet;
+}
+
+/*-----------------ACTIVE-------------------*/
+
+/*selected nav item*/
+.final-project .color-69cbf1 {
+    color: #69cbf1
+}
