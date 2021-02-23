@@ -5,7 +5,7 @@ export const Exercise10 = () => {
     return(
     <div className='exercise10'>
         <div className='position-relative bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4'>
-            <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent border-box overflow-y-auto'>
+            <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent border-box overflow-y-auto pb-2dot6-percent'>
                 <div className='filter-grayscale-0dot2 border-0dot5-vw-cccbcfcf border-right-03-vw  bg-clip-content-box bg-a4adbf'>
                     <header className='bg-img-linear-gradient-5e6394-8f9fb9-a6adc4'>
                         <img src={webVacacionesImg} width='100%'/>
