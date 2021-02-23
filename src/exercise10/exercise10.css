@@ -170,14 +170,22 @@
 .exercise10 .z-index--1 {
     z-index: -1;
 }
+.exercise10 .bg-clip-content-box {
+    background-clip: content-box;
+}
 .exercise10 .bg-white {
     background-color: white;
 }
 .exercise10 .bg-lightgoldenrodyellow {
     background-color: lightgoldenrodyellow;
 }
+/*nav background*/
 .exercise10 .bg-linear-gradient-f9ffc6-fcf8b9-ebf2d6 {
     background-image: linear-gradient(#f9ffc6, #fcf8b9, #ebf2d6);
+}
+/*page container inside linear gradient background*/
+.exercise10 .bg-a4adbf {
+    background-color: #a4adbf;
 }
 .exercise10 .bg-737ba0 {
     background-color: #737ba0;
