@@ -66,7 +66,7 @@ export const Exercise10 = () => {
                         <aside className='w-28dot6-percent border-light-gray border-02 border-right-00 border-top-00'>
                             <section className=''>
                                 <h3 className='mt-00 mb-5-percent bg-737ba0 font-weight-500 color-dddddd font-family-monospace font-size-1dot6-vw text-shadow-whitesmoke'>Buscar</h3>
-                                <div><input type='text'className='w-58-percent ml-5-percent h-2-vw'/></div>
+                                <div><input type='text'className='w-58-percent ml-5-percent h-2-vw border-0dot2-vw-9ca0a0'/></div>
                                 <div><button disabled className='flex-column justify-content-center px-03-percent border-radius-06 border-light-gray border-02 h-1dot8-vw bg-lightgoldenrodyellow color-d3d19c font-weight-600 font-family-monospace font-size-1dot5-vw mt-1dot5-percent ml-57-percent'>Go</button></div>
                                 <div className='ml-6dot5-percent mt-2-percent color-5f5d67 font-size-1dot3-vw mb-5-percent'>
                                     <div className='mb-1dot5-percent'>
