@@ -4,10 +4,10 @@ import webVacacionesImg from './webVacaciones.jpg'
 export const Exercise10 = () => {
     return(
     <div className='exercise10'>
-        <div className='position-relative h-56-vw bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4'>
+        <div className='position-relative bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4'>
             <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent h-97-percent border-box overflow-y-auto'>
-                <div className='box-shadow-x--0dot1-vw-1vw-black filter-grayscale-0dot2'>
-                    <header className=''>
+                <div className='filter-grayscale-0dot2 border-0dot5-vw-cccbcfcf border-right-03-vw'>
+                    <header className='bg-img-linear-gradient-5e6394-8f9fb9-a6adc4'>
                         <img src={webVacacionesImg} width='100%'/>
                     </header>
                     <nav className='bg-f9ffc6 py-0dot4-percent  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>

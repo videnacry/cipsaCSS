@@ -27,9 +27,6 @@
 .exercise10 .w-28dot6-percent {
     width: 28.6%;
 }
-.exercise10 .h-56-vw {
-    height: 56vw;
-}
 .exercise10 .h-2-vw {
     height: 2vw;
 }
@@ -112,6 +109,9 @@
 .exercise10 .pr-0dot5-vw {
     padding-right: 0.5vw;
 }
+.exercise10 .border-0dot5-vw-cccbcfcf {
+    border: solid 0.5vw #cccbcfcf;
+}
 .exercise10 .border-light-gray {
     border: 1px solid lightgray;
 }
@@ -126,6 +126,9 @@
 }
 .exercise10 .border-bottom-02 {
     border-bottom-width: 2px;
+}
+.exercise10 .border-right-03-vw {
+    border-right-width: 0.3vw;
 }
 .exercise10 .border-right-00 {
     border-right: 0;
@@ -186,7 +189,10 @@
 .exercise10 .bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4 {
     background-image: repeating-linear-gradient(135deg, #BCCCCC, #f3fdff, #BCCCCC 0.4% );
 }
-
+/*header background (logo)*/
+.exercise10 .bg-img-linear-gradient-5e6394-8f9fb9-a6adc4 {
+    background-image: linear-gradient(to right, #5e6394,#8f9fb9, #a6adc4);
+}
 .exercise10 .color-dddddd {
     color: #dddddd;
 }
@@ -238,9 +244,6 @@
 .exercise10 .text-shadow-02 {
     text-shadow: 0 0 2px;
 }
-.exercise10 .box-shadow-x--0dot1-vw-1vw-black {
-    box-shadow: -0.01vw -0.01vw 1vw black;
-}
 .exercise10 .font-family-system-ui {
     font-family: system-ui;
 }
@@ -284,7 +287,8 @@
     list-style-type: none;
 }
 .exercise10 ::-webkit-scrollbar {
-    width:10px;
+    width: 10px;
+    height: 10px;
 }
 .exercise10 ::-webkit-scrollbar-track {
     background-color: rgb(58, 58, 58);
