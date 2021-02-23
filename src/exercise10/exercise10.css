@@ -182,6 +182,11 @@
 .exercise10 .bg-5f5d67 {
     background-color: #5f5d67;
 }
+/*page background*/
+.exercise10 .bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4 {
+    background-image: repeating-linear-gradient(135deg, #BCCCCC, #f3fdff, #BCCCCC 0.4% );
+}
+
 .exercise10 .color-dddddd {
     color: #dddddd;
 }

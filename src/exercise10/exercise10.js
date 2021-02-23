@@ -1,15 +1,13 @@
 import './exercise10.css'
-import exercise10Img from '../img/enouncements/exercise10.jpg'
 
 import webVacacionesImg from './webVacaciones.jpg'
 export const Exercise10 = () => {
     return(
     <div className='exercise10'>
-        <div className='position-relative h-56-vw'>
-            <img src={exercise10Img} className='position-absolute z-index--1 h-max' width='100%'/>
+        <div className='position-relative h-56-vw bg-img-repeating-gradient-135-bccccc-f3fdff-bccccc-00dot4'>
             <div className='w-94dot776-percent ml-3dot5-percent pt-2dot6-percent h-97-percent border-box overflow-y-auto'>
                 <div className='box-shadow-x--0dot1-vw-1vw-black filter-grayscale-0dot2'>
-                    <header>
+                    <header className=''>
                         <img src={webVacacionesImg} width='100%'/>
                     </header>
                     <nav className='bg-f9ffc6 py-0dot4-percent  border-light-gray border-00 border-bottom-02 font-size-1dot4-vw'>
@@ -51,7 +49,7 @@ export const Exercise10 = () => {
                             <p className='line-height-100-percent mb-2dot5-percent mt-1dot5-percent color-5f5d67 font-family-system-ui text-shadow-b9b9b9-20-grey-2 font-size-1dot5-vw'>
                                 Hemos intentado ir paso para ir comprendiendo una a una las partes en que podemos distribuir el dise&ntilde;o de nuestra web. Es importante seguir paso a paso el ejercicio y entender las propiedades utilizadas en cada estilo.
                             </p>
-                            <ul className='flex-row p-0 list-style-type-none font-family-monospace font-size-1dot6-vw color-3e2b55 font-weight-600 mt-00'>
+                            <ul className='flex-row p-00 list-style-type-none font-family-monospace font-size-1dot6-vw color-3e2b55 font-weight-600 mt-00'>
                                 <li className='font-size-1dot6-vw'>
                                     <a className='font-family-monospace color-2f1f43 font-weight-600 text-shadow-bf3fbf-14-black-1' id='volver' href='./#volver'>Volver</a>
                                 </li>
