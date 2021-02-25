@@ -46,6 +46,9 @@
 .final-project .h-21dot3-vw {
     height: 21.3vw;
 }
+.final-project .h-18dot1-vw {
+    height: 18.1vw;
+}
 .final-project .h-5-vw {
     height: 5vw;
 }
@@ -70,6 +73,9 @@
 .final-project .pl-1dot5-vw {
     padding-left: 1.5vw;
 }
+.final-project .pl-5dot2-vw {
+    padding-left: 5.2vw;
+}
 .final-project .pl-05-vw {
     padding-left: 5vw;
 }
@@ -88,8 +94,14 @@
 .final-project .m-00 {
     margin: 0;
 }
+.final-project .mt-4dot4-vw {
+    margin-top: 4.4vw;
+}
 .final-project .mt-1dot7-vw {
     margin-top: 1.7vw;
+}
+.final-project .mt-1dot1-vw {
+    margin-top: 1.1vw;
 }
 .final-project .mt-01-vw {
     margin-top: 1vw;
@@ -99,6 +111,9 @@
 }
 .final-project .ml-minus-0dot4-vw {
     margin-left: -0.4vw;
+}
+.final-project .mb-3dot1-vw {
+    margin-bottom: 3.1vw;
 }
 .final-project .mb-03-vw {
     margin-bottom: 3vw;
@@ -111,6 +126,9 @@
 }
 .final-project .mb-1dot6-vw {
     margin-bottom: 1.6vw;
+}
+.final-project .mb-1dot3-vw {
+    margin-bottom: 1.3vw;
 }
 .final-project .mb-01-vw {
     margin-bottom: 1vw;
@@ -203,6 +221,9 @@
 .final-project .font-weight-600 {
     font-weight: 600;
 }
+.final-project .font-size-3dot1-vw {
+    font-size: 3.1vw;
+}
 .final-project .font-size-03-vw {
     font-size: 3vw;
 }
@@ -214,6 +235,9 @@
 }
 .final-project .font-size-1dot8-vw {
     font-size: 1.8vw;
+}
+.final-project .font-size-1dot6-vw {
+    font-size: 1.6vw;
 }
 .final-project .font-size-1dot5-vw {
     font-size: 1.5vw;
