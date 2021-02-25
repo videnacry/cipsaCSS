@@ -1,4 +1,4 @@
-.border-box {
+.final-project .border-box {
     box-sizing: border-box;
 }
 .final-project .w-100-percent {
@@ -6,6 +6,18 @@
 }
 .final-project .w-65-percent {
     width: 65%;
+}
+.final-project .w-56-vw {
+    width: 56vw;
+}
+.final-project .w-53-percent {
+    width: 53%;
+}
+.final-project .w-50-percent {
+    width: 50%;
+}
+.final-project .w-43-percent {
+    width: 43%;
 }
 .final-project .w-33dot3-vw {
     width: 33.3vw;
@@ -16,11 +28,23 @@
 .final-project .w-9dot5-vw {
     width: 9.5vw;
 }
+.final-project .w-9dot3-vw {
+    width: 9.3vw;
+}
+.final-project .h-100-percent {
+    height: 100%;
+}
+.final-project .h-26-vw {
+    height: 26vw;
+}
 .final-project .h-24dot6-vw {
     height: 24.6vw;
 }
 .final-project .h-23-vw {
     height: 23vw;
+}
+.final-project .h-21dot3-vw {
+    height: 21.3vw;
 }
 .final-project .h-5-vw {
     height: 5vw;
@@ -31,11 +55,17 @@
 .final-project .p-00 {
     padding: 0;
 }
-.final-project .pt-0dot5-vw {
-    padding-top: 0.5vw;
+.final-project .pt-3dot4-vw {
+    padding-top: 3.4vw;
+}
+.final-project .pt-2dot7-vw {
+    padding-top: 2.7vw;
 }
 .final-project .pt-01-vw {
     padding-top: 1vw;
+}
+.final-project .pt-0dot5-vw {
+    padding-top: 0.5vw;
 }
 .final-project .pl-1dot5-vw {
     padding-left: 1.5vw;
@@ -43,14 +73,29 @@
 .final-project .pl-05-vw {
     padding-left: 5vw;
 }
+.final-project .pb-3dot4-vw {
+    padding-bottom: 3.4vw;
+}
 .final-project .pb-01-vw {
     padding-bottom: 1vw;
 }
 .final-project .pr-05-vw {
     padding-right: 5vw;
 }
-.final-project .pr-05-vw {
-    padding-right: 5vw;
+.final-project .pr-04-vw {
+    padding-right: 4vw;
+}
+.final-project .m-00 {
+    margin: 0;
+}
+.final-project .mt-1dot7-vw {
+    margin-top: 1.7vw;
+}
+.final-project .mt-01-vw {
+    margin-top: 1vw;
+}
+.final-project .mt-0dot1-vw {
+    margin-top: 0.1vw;
 }
 .final-project .ml-minus-0dot4-vw {
     margin-left: -0.4vw;
@@ -67,17 +112,38 @@
 .final-project .mb-1dot6-vw {
     margin-bottom: 1.6vw;
 }
+.final-project .mb-01-vw {
+    margin-bottom: 1vw;
+}
 .final-project .border-radius-100 {
     border-radius: 100px;
 }
 .final-project .border-none {
     border: none;
 }
+.final-project .border-00 {
+    border-width: 0;
+}
 .final-project .border-00dot25-vw {
     border-width: 0.25vw;
 }
+.final-project .border-00dot3-vw {
+    border-width: 0.3vw;
+}
+.final-project .border-t-00dot15-vw {
+    border-top-width: 0.15vw;
+}
+.final-project .border-l-00dot15-vw {
+    border-left-width: 0.15vw;
+}
 .final-project .border-l-00 {
     border-left-width: 0;
+}
+.final-project .border-b-00dot15-vw {
+    border-bottom-width: 0.15vw;
+}
+.final-project .border-r-00dot15-vw {
+    border-right-width: 0.15vw;
 }
 .final-project .border-r-00 {
     border-right-width: 0;
@@ -91,12 +157,21 @@
 .final-project .d-block {
     display: block;
 }
+.final-project .float-left {
+    float: left;
+}
+.final-project .float-right {
+    float: right;
+}
 .final-project .flex-row, .flex-column {
     display: flex;
     flex-direction: row;
 }
 .final-project .flex-column {
     flex-direction: column;
+}
+.final-project .flex-wrap {
+    flex-wrap: wrap;
 }
 .final-project .justify-content-space-evenly {
     justify-content: space-evenly;
@@ -113,16 +188,35 @@
     background-color: #0baae8;
 }
 .final-project .bg-img-gradient-e2e2e2-white-25 {
-    background-image: linear-gradient(#e2e2e2, white 25%)
+    background-image: linear-gradient(#e2e2e2, white 25%);
+}
+/*Index featured project article*/
+.final-project .bg-img-linear-gradient-ededed-white-25 {
+    background-image: linear-gradient( #ededed, white 25%);
+}
+.final-project .font-weight-400 {
+    font-weight: 400;
 }
 .final-project .font-weight-500 {
     font-weight: 500;
 }
+.final-project .font-weight-600 {
+    font-weight: 600;
+}
 .final-project .font-size-03-vw {
     font-size: 3vw;
 }
+.final-project .font-size-2dot4-vw {
+    font-size: 2.4vw;
+}
+.final-project .font-size-02-vw {
+    font-size: 2vw;
+}
 .final-project .font-size-1dot8-vw {
     font-size: 1.8vw;
+}
+.final-project .font-size-1dot5-vw {
+    font-size: 1.5vw;
 }
 .final-project .font-size-1dot4-vw {
     font-size: 1.4vw;
@@ -130,12 +224,22 @@
 .final-project .font-size-1dot3-vw {
     font-size: 1.3vw;
 }
+.final-project .font-size-1dot2-vw {
+    font-size: 1.2vw;
+}
+.final-project .color-fcffff {
+    color: #fcffff;
+}
 /*gray color for nav options*/
 .final-project .color-9c89a2 {
     color: #9c89a2;
 }
 .final-project .color-a8eef8 {
     color: #a8eef8;
+}
+/*Index link color*/
+.final-project .color-5eccf4 {
+    color: #5eccf4;
 }
 /*Contact form title color*/
 .final-project .color-4d5155 {
@@ -145,6 +249,10 @@
 .final-project .color-706570 {
     color: #706570;
 }
+/*Index texts color*/
+.final-project .color-666666 {
+    color: #666666;
+}
 /*Contact title*/
 .final-project .text-shadow-0dot1-vw-7ba5cf-minus-0dot1-vw-edd1b0 {
     text-shadow: 0.1vw 0 #7ba5cf, -0.1vw 0 #edd1b0;
@@ -152,6 +260,21 @@
 /*Contact sentence*/
 .final-project .text-shadow-minus-0dot1-vw-e8d5c0-0dot1-vw-8f94be-0-minus-0dot1-vw-a5bdd4 {
     text-shadow: -0.1vw 0 #e8d5c0, 0.1vw 0 #8f94be, 0 -0.1vw #a5bdd4;
+}
+/*Index texts shadow*/
+.final-project .text-shadow-minus-0dot1-vw-fcdfaa-0dot1-vw-b5c2d9-0-0-0dot1-vw-6e5571 {
+    text-shadow: -0.1vw 0 #fcdfaa, 0.1vw 0 #b5c2d9, 0 0 0.1vw #6e5571;
+}
+/*Index buttons shadow*/
+.final-project .text-shadow-minus-0dot1-vw-33cdf4-0dot1-vw-5cdefd {
+    text-shadow: -0.1vw 0 #33cdf4, 0.1vw 0 #5cdefd;
+}
+/*Index link shadow*/
+.final-project .text-shadow-minus-0dot1-vw-9ff2ff-0dot1-vw-11b6ef {
+    text-shadow: -0.1vw 0 #9ff2ff, 0.05vw 0 #11b6ef;
+}
+.final-project .line-height-2dot3-vw {
+    line-height: 2.3vw;
 }
 .final-project .list-style-none {
     list-style: none;
@@ -171,4 +294,9 @@
 /*selected nav item*/
 .final-project .color-69cbf1 {
     color: #69cbf1
+}
+
+/*-----------------FOCUS--------------------*/
+.final-project .focus-outline-none:focus {
+    outline: none;
 }
