@@ -10,7 +10,7 @@ export const Projects = () => {
         </h1>
         <article className='border-box h-24dot4-vw pt-4dot8-vw border-00 border-b-00dot25-vw border-dotted border-color-e5e5e5'>
             <div className='w-40-vw float-left'>
-                <h2 className='m-00 mt-2dot2-vw font-weight-400 font-size-03-vw line-height-2dot3-vw'>
+                <h2 className='m-00 font-weight-400 font-size-03-vw line-height-2dot3-vw'>
                     Lorem ipsum
                 </h2>
                 <p className='line-height-2dot3-vw mt-1dot5-vw mb-1dot3-vw'>
@@ -21,7 +21,7 @@ export const Projects = () => {
         </article>
         <article className='border-box h-25dot2-vw pt-5dot5-vw border-00 border-b-00dot25-vw border-dotted border-color-e5e5e5'>
             <div className='w-40-vw float-left'>
-                <h2 className='m-00 mt-2dot2-vw font-weight-400 font-size-03-vw line-height-2dot3-vw'>
+                <h2 className='m-00 font-weight-400 font-size-03-vw line-height-2dot3-vw'>
                     Lorem ipsum
                 </h2>
                 <p className='line-height-2dot3-vw mt-1dot5-vw mb-1dot3-vw'>
@@ -32,7 +32,7 @@ export const Projects = () => {
         </article>
         <article className='border-box h-25dot2-vw pt-5dot5-vw border-00 border-b-00dot25-vw border-dotted border-color-e5e5e5'>
             <div className='w-40-vw float-left'>
-                <h2 className='m-00 mt-2dot2-vw font-weight-400 font-size-03-vw line-height-2dot3-vw'>
+                <h2 className='m-00 font-weight-400 font-size-03-vw line-height-2dot3-vw'>
                     Lorem ipsum
                 </h2>
                 <p className='line-height-2dot3-vw mt-1dot5-vw mb-1dot3-vw'>
@@ -43,7 +43,7 @@ export const Projects = () => {
         </article>
         <article className='h-25dot2-vw border-00  pt-5dot5-vw'>
             <div className='w-40-vw float-left'>
-                <h2 className='m-00 mt-2dot2-vw font-weight-400 font-size-03-vw line-height-2dot3-vw'>
+                <h2 className='m-00 font-weight-400 font-size-03-vw line-height-2dot3-vw'>
                     Lorem ipsum
                 </h2>
                 <p className='line-height-2dot3-vw mt-1dot5-vw mb-1dot3-vw'>
