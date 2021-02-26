@@ -187,6 +187,9 @@
 .final-project .border-00dot25-vw {
     border-width: 0.25vw;
 }
+.final-project .border-00dot2-vw {
+    border-width: 0.2vw;
+}
 .final-project .border-00dot3-vw {
     border-width: 0.3vw;
 }
@@ -368,9 +371,6 @@
 }
 .final-project .list-style-none {
     list-style: none;
-}
-.final-project .resize-none {
-    resize: none;
 }
 
 /*------------------HOVER--------------------*/
