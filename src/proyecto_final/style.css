@@ -85,6 +85,9 @@
 .final-project .pt-2dot7-vw {
     padding-top: 2.7vw;
 }
+.final-project .pt-1dot6-vw {
+    padding-top: 1.6vw;
+}
 .final-project .pt-01-vw {
     padding-top: 1vw;
 }
@@ -105,6 +108,9 @@
 }
 .final-project .pb-3dot4-vw {
     padding-bottom: 3.4vw;
+}
+.final-project .pb-02-vw {
+    padding-bottom: 2vw;
 }
 .final-project .pb-01-vw {
     padding-bottom: 1vw;

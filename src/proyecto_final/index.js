@@ -7,7 +7,7 @@ export const Index = () => {
     return(
         <>
         <Header/>
-        <div className='flex-row justify-content-center'>
+        <div className='flex-row justify-content-center pt-1dot6-vw pb-02-vw'>
             <img className='w-56-vw mt-01-vw' src={featured_img} alt='8 figuras humanas'/>
         </div>
         <article className='border-box w-100-percent h-26-vw pt-3dot4-vw pl-05-vw pb-3dot4-vw pr-05-vw border-00dot3-vw border-solid border-color-e5e5e5 border-l-00 border-r-00 color-666666 text-shadow-minus-0dot1-vw-fcdfaa-0dot1-vw-b5c2d9-0-0-0dot1-vw-6e5571 font-weight-500  bg-img-linear-gradient-ededed-white-25'>
