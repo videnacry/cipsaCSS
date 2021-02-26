@@ -19,11 +19,17 @@
 .final-project .w-43-percent {
     width: 43%;
 }
+.final-project .w-40-vw {
+    width: 40vw;
+}
 .final-project .w-33dot3-vw {
     width: 33.3vw;
 }
 .final-project .w-26-vw {
     width: 26vw;
+}
+.final-project .w-22dot4-vw {
+    width: 22.4vw;
 }
 .final-project .w-9dot5-vw {
     width: 9.5vw;
@@ -37,8 +43,14 @@
 .final-project .h-26-vw {
     height: 26vw;
 }
+.final-project .h-25dot2-vw {
+    height: 25.2vw;
+}
 .final-project .h-24dot6-vw {
     height: 24.6vw;
+}
+.final-project .h-24dot4-vw {
+    height: 24.4vw;
 }
 .final-project .h-23-vw {
     height: 23vw;
@@ -49,6 +61,9 @@
 .final-project .h-18dot1-vw {
     height: 18.1vw;
 }
+.final-project .h-13dot8-vw {
+    height: 13.8vw;
+}
 .final-project .h-5-vw {
     height: 5vw;
 }
@@ -57,6 +72,12 @@
 }
 .final-project .p-00 {
     padding: 0;
+}
+.final-project .pt-5dot5-vw {
+    padding-top: 5.5vw;
+}
+.final-project .pt-4dot8-vw {
+    padding-top: 4.8vw;
 }
 .final-project .pt-3dot4-vw {
     padding-top: 3.4vw;
@@ -70,14 +91,17 @@
 .final-project .pt-0dot5-vw {
     padding-top: 0.5vw;
 }
-.final-project .pl-1dot5-vw {
-    padding-left: 1.5vw;
-}
 .final-project .pl-5dot2-vw {
     padding-left: 5.2vw;
 }
 .final-project .pl-05-vw {
     padding-left: 5vw;
+}
+.final-project .pl-4dot9-vw {
+    padding-left: 4.9vw;
+}
+.final-project .pl-1dot5-vw {
+    padding-left: 1.5vw;
 }
 .final-project .pb-3dot4-vw {
     padding-bottom: 3.4vw;
@@ -97,8 +121,14 @@
 .final-project .mt-4dot4-vw {
     margin-top: 4.4vw;
 }
+.final-project .mt-2dot2-vw {
+    margin-top: 2.2vw;
+}
 .final-project .mt-1dot7-vw {
     margin-top: 1.7vw;
+}
+.final-project .mt-1dot5-vw {
+    margin-top: 1.5vw;
 }
 .final-project .mt-1dot1-vw {
     margin-top: 1.1vw;
@@ -111,6 +141,9 @@
 }
 .final-project .ml-minus-0dot4-vw {
     margin-left: -0.4vw;
+}
+.final-project .mb-3dot9-vw {
+    margin-bottom: 3.9vw;
 }
 .final-project .mb-3dot1-vw {
     margin-bottom: 3.1vw;
@@ -157,6 +190,9 @@
 .final-project .border-l-00 {
     border-left-width: 0;
 }
+.final-project .border-b-00dot25-vw {
+    border-bottom-width: 0.25vw;
+}
 .final-project .border-b-00dot15-vw {
     border-bottom-width: 0.15vw;
 }
@@ -168,6 +204,9 @@
 }
 .final-project .border-solid {
     border-style: solid;
+}
+.final-project .border-dotted {
+    border-style: dotted;
 }
 .final-project .border-color-e5e5e5 {
     border-color: #e5e5e5;
@@ -299,6 +338,12 @@
 }
 .final-project .line-height-2dot3-vw {
     line-height: 2.3vw;
+}
+.final-project .line-height-2dot2-vw {
+    line-height: 2.2vw;
+}
+.final-project .line-height-1dot2-vw {
+    line-height: 1.2vw;
 }
 .final-project .list-style-none {
     list-style: none;
