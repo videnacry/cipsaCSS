@@ -67,6 +67,9 @@
 .final-project .h-5-vw {
     height: 5vw;
 }
+.final-project .h-03-vw {
+    height: 3vw;
+}
 .final-project .h-2dot8-vw {
     height: 2.8vw;
 }
@@ -145,6 +148,9 @@
 .final-project .ml-minus-0dot4-vw {
     margin-left: -0.4vw;
 }
+.final-project .mb-10-vw {
+    margin-bottom: 10vw;
+}
 .final-project .mb-3dot9-vw {
     margin-bottom: 3.9vw;
 }
@@ -183,6 +189,9 @@
 }
 .final-project .border-00dot3-vw {
     border-width: 0.3vw;
+}
+.final-project .border-t-00dot3-vw {
+    border-top-width: 0.3vw;
 }
 .final-project .border-t-00dot15-vw {
     border-top-width: 0.15vw;
@@ -243,6 +252,9 @@
 .final-project .bg-color-f3f3f4 {
     background-color: #f3f3f4;
 }
+.final-project .bg-color-f1f1f2 {
+    background-color: #f1f1f2;
+}
 /*button contacto enviar bg-color*/
 .final-project .bg-color-0baae8 {
     background-color: #0baae8;
@@ -293,6 +305,9 @@
 .final-project .font-size-1dot2-vw {
     font-size: 1.2vw;
 }
+.final-project .font-size-1dot1-vw {
+    font-size: 1.1vw;
+}
 .final-project .color-fcffff {
     color: #fcffff;
 }
@@ -318,6 +333,9 @@
 /*Index texts color*/
 .final-project .color-666666 {
     color: #666666;
+}
+.final-project .text-align-center {
+    text-align: center;
 }
 /*Contact title*/
 .final-project .text-shadow-0dot1-vw-7ba5cf-minus-0dot1-vw-edd1b0 {
