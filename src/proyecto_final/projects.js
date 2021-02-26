@@ -1,4 +1,5 @@
 import {Header} from './header'
+import {Footer} from './footer'
 
 export const Projects = () => {
     return(
@@ -53,6 +54,7 @@ export const Projects = () => {
             <div className='border-box h-13dot8-vw w-22dot4-vw float-right border-00dot3-vw border-solid border-color-e5e5e5 font-size-1dot8-vw line-height-1dot2-vw'>akono215x130</div>
         </article>
     </div>
+    <Footer/>
     </>
     )
 }

@@ -1,4 +1,6 @@
 import {Header} from './header'
+import {Footer} from './footer'
+
 export const Contact = () => {
     return(
     <>
@@ -16,6 +18,7 @@ export const Contact = () => {
         <textarea className='w-33dot3-vw h-23-vw pt-0dot5-vw pl-1dot5-vw mb-2dot33-vw d-block font-size-1dot3-vw resize-none'></textarea>
         <input className='w-9dot5-vw h-2dot8-vw ml-minus-0dot4-vw border-none border-radius-100 bg-color-0baae8 font-size-1dot3-vw color-a8eef8' type='submit' value='Enviar >' />
     </form>
+    <Footer/>
     </>
     )
 }

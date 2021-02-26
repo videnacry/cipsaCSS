@@ -1,4 +1,5 @@
 import {Header} from './header'
+import {Footer} from './footer'
 
 import featured_img from './material/featured-img.png'
 import featured_project_img from './material/featured-project.png'
@@ -47,6 +48,7 @@ export const Index = () => {
                 <button className='w-9dot3-vw h-2dot8-vw border-radius-100 border-none bg-color-0baae8 font-weight-600 font-size-1dot2-vw color-fcffff text-shadow-minus-0dot1-vw-33cdf4-0dot1-vw-5cdefd focus-outline-none'>Leer m&aacute;s</button>
             </article>
         </section>
+        <Footer/>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import {Header} from './header'
+import {Footer} from './footer'
 
 export const Services = () => {
     return(
@@ -53,6 +54,7 @@ export const Services = () => {
             </a>
         </article>
     </div>
+    <Footer/>
     </>
     )
 }
