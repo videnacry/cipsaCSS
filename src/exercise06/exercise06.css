@@ -1,3 +1,6 @@
+.exercise06 {
+    font-family: serif;
+}
 .exercise06 .children-position-relative * {
     position: relative;
 }
@@ -51,8 +54,8 @@
 .exercise06 .w-54-percent {
     width: 54%;
 }
-.exercise06 .w-26-percent {
-    width: 26%;
+.exercise06 .w-29-percent {
+    width: 29%;
 }
 .exercise06 .h-max {
     height: 100%;
@@ -98,6 +101,9 @@
 }
 .exercise06 .pb-4 {
     padding-bottom: 40px;
+}
+.exercise06 .pr-1 {
+    padding-right: 10px;
 }
 .exercise06 .flex-row {
     display: flex;

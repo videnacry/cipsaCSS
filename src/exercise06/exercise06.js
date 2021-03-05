@@ -27,8 +27,8 @@ export const Exercise06 = () => {
                     <article className='w-54-percent my-1'>
                         <h1 className='font-size-56 mx-2 pb-4'>CONTENIDO</h1>
                     </article>
-                    <aside className='w-26-percent m-1'>
-                        <span className='pb-4'>CONTENIDO LATERAL</span>
+                    <aside className='w-29-percent m-1'>
+                        <span className='pb-4 pr-1'>CONTENIDO LATERAL</span>
                     </aside>
                 </div>
                 <footer className='bg-black color-white m-1 mt-0 h-20'>
