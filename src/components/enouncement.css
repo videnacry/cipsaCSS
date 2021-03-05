@@ -1,11 +1,4 @@
-.enuncement-title, .enuncement-text {
-    text-align: start;
-}
-.enuncement-title {
-    background-color: greenyellow;
-    color: white;
-    font-size: 32px;
-}
-.enuncement-text {
-    color: black;
+.enouncement-c {
+    width: 90%;
+    margin: 10px 5%;
 }
