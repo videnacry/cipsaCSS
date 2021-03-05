@@ -232,6 +232,9 @@
 .final-project .d-block {
     display: block;
 }
+.final-project .hidden {
+    display: none;
+}
 .final-project .float-left {
     float: left;
 }
