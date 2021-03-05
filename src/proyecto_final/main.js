@@ -34,10 +34,10 @@ export const FinalProject = () => {
         <nav>
             <NavX titles={titles} clickHandler={(title) => dispatch({title})}/>
         </nav>
+        {pageIndex == 0 ? '' : <button class='w-9dot5-vw h-03-vw border-radius-100 border-none mb-1dot3-vw bg-color-0baae8 font-weight-600 font-size-1dot3-vw color-fcffff text-shadow-minus-0dot1-vw-33cdf4-0dot1-vw-5cdefd color-blueviolet focus-outline-none' onClick={() => dispatch({mainHeader:'toggle'})}>{mainHeader === 'hidden' ? 'Show model' : 'Hide model'}</button>}
         <header class={pageIndex == 0 ? '' : mainHeader}>
             <Enouncement imgSrc={captures[pageIndex]}/>
         </header>
-        {pageIndex == 0 ? '' : <button class='w-9dot5-vw h-03-vw border-radius-100 border-none mb-1dot3-vw bg-color-0baae8 font-weight-600 font-size-1dot3-vw color-fcffff text-shadow-minus-0dot1-vw-33cdf4-0dot1-vw-5cdefd color-blueviolet focus-outline-none' onClick={() => dispatch({mainHeader:'toggle'})}>Show model</button>}
         <article>
             {pages[pageIndex]}
         </article>
