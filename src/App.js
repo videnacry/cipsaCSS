@@ -22,7 +22,7 @@ function App() {
   return (
     <div className='app'>
     <header>
-      <h1 onClick={() => dispatch({exercise : '2'})}>CIPSA - CSS Exercises</h1>
+      <h1 className='title-s' onClick={() => dispatch({exercise : '2'})}>CIPSA - CSS Exercises</h1>
     </header>
     <section className="flex-row">
       <aside>

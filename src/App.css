@@ -11,3 +11,9 @@
   margin: 3vw auto;
   padding: 2vw;
 }
+.app>header>.title-s {
+  text-align: end;
+  padding: 0 5vw;
+  color: mediumvioletred;
+  text-shadow: 1px 0 #b09b9b;
+}
