@@ -1,5 +1,45 @@
 .nav-c {
     list-style: none;
-    padding: 20px;
+    margin: 0;
+    padding: 0 1vw;
     inline-size: max-content;
+}
+
+.nav-c>li {
+    margin: 5px;
+    position: relative;
+    padding: 10px 25px;
+    border-radius: 1vw;
+    border: solid 1px gray;
+    background-color: gray;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0 0 5px white;
+}
+
+.nav-c>li::before {
+    content: '';
+    width: 0.5em;
+    height: 20px;
+    border-radius: 3px 1px 1px 3px;
+    position: absolute;
+    left: 10px;
+    background-color: palevioletred;
+    box-shadow: inset 1px 1px black;
+}
+
+.nav-c>li::after {
+    content: '';
+    width: 0.5em;
+    height: 20px;
+    border-radius: 1px 3px 3px 1px;
+    position: absolute;
+    right: 10px;
+    background-color: palevioletred;
+    box-shadow: inset 1px 1px black;
+}
+
+.nav-c>li:hover {
+    filter: hue-rotate(150deg);
 }
