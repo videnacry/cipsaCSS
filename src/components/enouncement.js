@@ -2,6 +2,6 @@ import './enouncement.css'
 
 export const Enouncement = ({imgSrc}) => {
     return(
-        <img src={imgSrc} width="100%"/>
+        <img className='enouncement-c' src={imgSrc} width="100%"/>
     )
 }

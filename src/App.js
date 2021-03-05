@@ -28,7 +28,7 @@ function App() {
       <aside>
         <Nav clickHandler={liNum => dispatch({exercise: liNum})} lines={navLines}/>
       </aside>
-      <article className='w-100'>
+      <article className='article-s w-100'>
         <Enouncement imgSrc={enouncementsImg[exerciseIndex]}/>
         {exercises[exerciseIndex]}
       </article>
