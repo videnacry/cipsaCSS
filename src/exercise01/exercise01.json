@@ -1,0 +1,3 @@
+{
+	"cssText":"/* Todos los elementos de la pagina */\n.exercise01 * { font: 1em/1.3 Arial, Helvetica, sans-serif; }\n/* Todos los parrafos de la pagina */\n.exercise01 p { color: #555; }\n/* Todos los párrafos contenidos en #primero */\n.exercise01 #primero p { color: #336699; }\n/* Todos los enlaces de la pagina */\n.exercise01 a { color: #CC3300; }\n/* Los elementos \"em\" contenidos en #primero */\n.exercise01 #primero em { background: #FFFFCC; padding: .1em; }\n/* Todos los elementos \"em\" de clase \"especial\" en toda la pagina */\n.exercise01 em.especial { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }\n/* Elementos \"span\" contenidos en .normal */\n.exercise01 .normal span { font-weight: bold; }"
+}

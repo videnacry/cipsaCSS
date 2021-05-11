@@ -1,14 +1,14 @@
-		/* Todos los elementos de la pagina */
-		.exercise01 * { font: 1em/1.3 Arial, Helvetica, sans-serif; }
-		/* Todos los parrafos de la pagina */
-		.exercise01 p { color: #555; }
-		/* Todos los párrafos contenidos en #primero */
-		.exercise01 #primero p { color: #336699; }
-		/* Todos los enlaces de la pagina */
-		.exercise01 a { color: #CC3300; }
-		/* Los elementos "em" contenidos en #primero */
-		.exercise01 #primero em { background: #FFFFCC; padding: .1em; }
-		/* Todos los elementos "em" de clase "especial" en toda la pagina */
-		.exercise01 em.especial { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
-		/* Elementos "span" contenidos en .normal */
-		.exercise01 .normal span { font-weight: bold; }
+/* Todos los elementos de la pagina */
+.exercise01 * { font: 1em/1.3 Arial, Helvetica, sans-serif; }
+/* Todos los parrafos de la pagina */
+.exercise01 p { color: #555; }
+/* Todos los párrafos contenidos en #primero */
+.exercise01 #primero p { color: #336699; }
+/* Todos los enlaces de la pagina */
+.exercise01 a { color: #CC3300; }
+/* Los elementos "em" contenidos en #primero */
+.exercise01 #primero em { background: #FFFFCC; padding: .1em; }
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+.exercise01 em.especial { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+/* Elementos "span" contenidos en .normal */
+.exercise01 .normal span { font-weight: bold; }

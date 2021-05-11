@@ -9,17 +9,18 @@ import {Exercise08} from './exercise08/exercise08'
 import {Exercise09} from './exercise09/exercise09'
 import {Exercise10} from './exercise10/exercise10'
 import {FinalProject} from './proyecto_final/main'
+import ShowCode from './components/showCode'
 
 export const exercises = [
-<Exercise01/>,
-<Exercise02/>,
-<Exercise03/>,
-<Exercise04/>,
-<Exercise05/>,
-<Exercise06/>,
-<Exercise07/>,
-<Exercise08/>,
-<Exercise09/>,
-<Exercise10/>,
-<FinalProject/>
+<Exercise01 ShowCode={ShowCode}/>,
+<Exercise02 ShowCode={ShowCode}/>,
+<Exercise03 ShowCode={ShowCode}/>,
+<Exercise04 ShowCode={ShowCode}/>,
+<Exercise05 ShowCode={ShowCode}/>,
+<Exercise06 ShowCode={ShowCode}/>,
+<Exercise07 ShowCode={ShowCode}/>,
+<Exercise08 ShowCode={ShowCode}/>,
+<Exercise09 ShowCode={ShowCode}/>,
+<Exercise10 ShowCode={ShowCode}/>,
+<FinalProject ShowCode={ShowCode}/>
 ]

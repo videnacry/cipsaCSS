@@ -71,7 +71,7 @@
 .exercise08 .position-relative {
     position: relative;
 }
-.exercise08 .absolute-vertical-center {
+.exercise08 .absolute-vertical-center, .exercise08 .absolute-center {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

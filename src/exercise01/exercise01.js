@@ -1,9 +1,11 @@
 import './exercise01.css'
+import exercise01 from './exercise01.json'
 
-export const Exercise01 = () => {
+export const Exercise01 = ({ShowCode}) => {
     
     return(
         <div className='exercise01'>
+			<ShowCode code={exercise01.cssText}/>
 			<div id="primero">
 				<p>Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing elit</a>.
 				Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum aliquet. Duis
