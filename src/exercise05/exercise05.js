@@ -1,4 +1,5 @@
 import './exercise05.css'
+export * as exercise05 from './exercise05.json'
 
 /**
  * Return months sell if the sells year matches the param year

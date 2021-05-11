@@ -6,6 +6,7 @@ import {captures} from './captures'
 import {pages} from './pages'
 
 import './style.css'
+export * as finalProject from './style.json'
 
 
 const titles = [

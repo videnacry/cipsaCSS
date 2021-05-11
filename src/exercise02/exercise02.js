@@ -1,4 +1,5 @@
 import './exercise02.css'
+export * as exercise02 from './exercise02.json'
 const links = [
     'https://www.cipsa.net/',
     'www.cipsaempresas.net',

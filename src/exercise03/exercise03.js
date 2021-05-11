@@ -1,4 +1,5 @@
 import './exercise03.css'
+export * as exercise03 from './exercise03.json'
 
 const texts = [
     'Esta es la primera caja, que le añadiremos una alineación izquierda, un interliniado de 1.2cm y letra Arial con tamaño 2em.',

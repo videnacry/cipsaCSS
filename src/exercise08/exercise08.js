@@ -1,5 +1,6 @@
 import './exercise08.css'
 import snakeImg from './snake_1000.jpg'
+export * as exercise08 from './exercise08.json'
 
 const boldGreenClass = 'font-weight-900 color-green'
 const boldRedClass = 'font-weight-900 color-red'

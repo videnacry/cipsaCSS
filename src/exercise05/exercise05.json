@@ -1,0 +1,3 @@
+{
+    "cssText": ".exercise05 .border-black {\n    border: solid 1px black;\n}\n.exercise05 .children-th-bg-blue th{\n    background-color: rgb(20, 134, 206)\n}\n.exercise05 .children-th-left th{\n    text-align: left;\n}\n.exercise05 .children-td-right td{\n    text-align: right;\n}\n.exercise05 .children-th-txt-blue th{\n    color: rgb(0, 0, 151);\n}\n.exercise05 .font-family-arial {\n    font-family: Arial;\n}\n.exercise05 .font-size-09 {\n    font-size: .9em;\n}\n.exercise05 .font-weight-bold {\n    font-weight: bold;\n    color: rgb(0, 0, 48);\n}\n.exercise05 .width-190 {\n    width: 190px;\n}\n.exercise05 .width-120 {\n    width: 120px;\n}\n.exercise05 .width-150 {\n    width: 150px;\n}\n.exercise05 .m-auto {\n    margin: auto;\n}"
+}

@@ -1,0 +1,3 @@
+{
+    "cssText": ".exercise02 .bg-blue {\n    background-color: rgb(64, 131, 255);\n}\n.exercise02 .color-white {\n    color: white\n}\n.exercise02 .visited-color-red:visited {\n    color: red;\n}\n.exercise02 .hover-color-purple:hover, .hover-color-purple *:hover {\n    color: rgb(98, 0, 255);\n}\n.exercise02 .m-1 {\n    margin: 1em;\n}\n.exercise02 .p-1 {\n    padding: 1em;\n}"
+}

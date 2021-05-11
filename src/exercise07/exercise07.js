@@ -1,5 +1,6 @@
 import './exercise07.css'
 import goat from './goat.jpg'
+export * as exercise07 from './exercise07.json'
 
 const boldGreenClass = 'font-weight-900 color-green'
 const boldRedClass = 'font-weight-900 color-red'

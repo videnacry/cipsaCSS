@@ -2,8 +2,9 @@ import {useReducer} from 'react'
 import './App.css';
 import {Nav} from './components/nav'
 import {Enouncement} from './components/enouncement'
+import ShowCode from './components/showCode'
 import {enouncementsImg} from './img/enouncements/exercises'
-import {exercises} from './exercises'
+import {exercises, cssTexts} from './exercises'
 
 const initialState = {exerciseIndex : 0}
 const navLines = []
@@ -15,7 +16,7 @@ const reducer = (state, action) => {
   let exerciseIndex = navLines.indexOf(action.exercise)
   return {...state, exerciseIndex}
 }
-
+const renderExercise = (Exercise) => <Exercise/>
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
   const {exerciseIndex} = state
@@ -29,8 +30,9 @@ function App() {
         <Nav clickHandler={liNum => dispatch({exercise: liNum})} lines={navLines}/>
       </aside>
       <article className='article-s w-100'>
-        <Enouncement imgSrc={enouncementsImg[exerciseIndex]}/>
-        {exercises[exerciseIndex]}
+        {enouncementsImg[exerciseIndex] && <Enouncement imgSrc={enouncementsImg[exerciseIndex]}/>}
+        <ShowCode code={cssTexts[exerciseIndex]}/>
+        {renderExercise(exercises[exerciseIndex])}
       </article>
     </section>
     </div>

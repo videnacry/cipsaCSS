@@ -1,4 +1,5 @@
 import './exercise04.css'
+export * as exercise04 from './exercise04.json'
 
 export const Exercise04 = () => {
 

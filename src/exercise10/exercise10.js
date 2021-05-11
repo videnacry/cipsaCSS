@@ -1,6 +1,8 @@
 import './exercise10.css'
-
 import webVacacionesImg from './webVacaciones.jpg'
+
+export * as exercise10 from './exercise10.json'
+
 export const Exercise10 = () => {
     return(
     <div className='exercise10'>

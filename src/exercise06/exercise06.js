@@ -1,4 +1,5 @@
 import './exercise06.css'
+export * as exercise06 from './exercise06.json'
 
 const tableClasses = [
     'h-600', 'w-1000', 'border-black',

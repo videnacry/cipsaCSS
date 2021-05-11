@@ -1,0 +1,3 @@
+{
+    "cssText": ".exercise04 .caption-side-bottom {\n    caption-side: bottom;\n\n}\n.exercise04 .table-bordered {\n    border-collapse: collapse;\n}\n.exercise04 .table-bordered td {\n    border: solid 2px rgb(0, 0, 34);\n}"
+}

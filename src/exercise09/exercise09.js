@@ -2,6 +2,8 @@ import './exercise09.css'
 
 import environmentImg from './Environment.png'
 import calamardoImg from './Calamardo.jpg'
+
+export * as exercise09 from './exercise09.json'
 const sectionClasses = [
     'flex-row', 'h-72-percent',
     'media-869-flex-column', 'media-869-h-unset',
